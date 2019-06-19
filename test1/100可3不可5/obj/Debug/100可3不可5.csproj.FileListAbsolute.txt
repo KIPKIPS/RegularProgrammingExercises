@@ -1,0 +1,6 @@
+E:\VisualStudioWorkStation\test1\100可3不可5\bin\Debug\100可3不可5.exe.config
+E:\VisualStudioWorkStation\test1\100可3不可5\bin\Debug\100可3不可5.exe
+E:\VisualStudioWorkStation\test1\100可3不可5\bin\Debug\100可3不可5.pdb
+E:\VisualStudioWorkStation\test1\100可3不可5\obj\Debug\100可3不可5.csproj.CoreCompileInputs.cache
+E:\VisualStudioWorkStation\test1\100可3不可5\obj\Debug\100可3不可5.exe
+E:\VisualStudioWorkStation\test1\100可3不可5\obj\Debug\100可3不可5.pdb

@@ -1,0 +1,7 @@
+E:\VisualStudioWorkStation\test1\100次骰子\bin\Debug\100次骰子.exe.config
+E:\VisualStudioWorkStation\test1\100次骰子\bin\Debug\100次骰子.exe
+E:\VisualStudioWorkStation\test1\100次骰子\bin\Debug\100次骰子.pdb
+E:\VisualStudioWorkStation\test1\100次骰子\obj\Debug\100次骰子.csproj.CoreCompileInputs.cache
+E:\VisualStudioWorkStation\test1\100次骰子\obj\Debug\100次骰子.exe
+E:\VisualStudioWorkStation\test1\100次骰子\obj\Debug\100次骰子.pdb
+E:\VisualStudioWorkStation\test1\100次骰子\obj\Debug\100次骰子.csprojAssemblyReference.cache

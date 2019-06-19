@@ -11,6 +11,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1-100平方及平方根", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "兔子繁殖问题", "兔子繁殖问题\兔子繁殖问题.csproj", "{3B04A33B-FCBF-49DA-B1FF-E770E4AFC773}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "100可3不可5", "100可3不可5\100可3不可5.csproj", "{225BDFED-8372-467F-9DC7-CD28FBCDA149}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1000以内素数", "1000以内素数\1000以内素数.csproj", "{F8137620-7E2B-4C8C-92EB-AFF4662478FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "九九乘法表", "九九乘法表\九九乘法表.csproj", "{89AA4116-5464-40E5-B189-8F2777B68F43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "100次骰子", "100次骰子\100次骰子.csproj", "{D5752485-3D3A-46A3-A46E-874618B18D68}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +41,22 @@ Global
 		{3B04A33B-FCBF-49DA-B1FF-E770E4AFC773}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B04A33B-FCBF-49DA-B1FF-E770E4AFC773}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B04A33B-FCBF-49DA-B1FF-E770E4AFC773}.Release|Any CPU.Build.0 = Release|Any CPU
+		{225BDFED-8372-467F-9DC7-CD28FBCDA149}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{225BDFED-8372-467F-9DC7-CD28FBCDA149}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{225BDFED-8372-467F-9DC7-CD28FBCDA149}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{225BDFED-8372-467F-9DC7-CD28FBCDA149}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8137620-7E2B-4C8C-92EB-AFF4662478FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8137620-7E2B-4C8C-92EB-AFF4662478FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8137620-7E2B-4C8C-92EB-AFF4662478FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8137620-7E2B-4C8C-92EB-AFF4662478FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89AA4116-5464-40E5-B189-8F2777B68F43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89AA4116-5464-40E5-B189-8F2777B68F43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89AA4116-5464-40E5-B189-8F2777B68F43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89AA4116-5464-40E5-B189-8F2777B68F43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5752485-3D3A-46A3-A46E-874618B18D68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5752485-3D3A-46A3-A46E-874618B18D68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5752485-3D3A-46A3-A46E-874618B18D68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5752485-3D3A-46A3-A46E-874618B18D68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

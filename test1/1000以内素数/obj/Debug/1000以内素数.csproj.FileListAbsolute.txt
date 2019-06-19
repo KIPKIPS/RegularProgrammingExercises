@@ -1,0 +1,6 @@
+E:\VisualStudioWorkStation\test1\1000以内素数\bin\Debug\1000以内素数.exe.config
+E:\VisualStudioWorkStation\test1\1000以内素数\bin\Debug\1000以内素数.exe
+E:\VisualStudioWorkStation\test1\1000以内素数\bin\Debug\1000以内素数.pdb
+E:\VisualStudioWorkStation\test1\1000以内素数\obj\Debug\1000以内素数.csproj.CoreCompileInputs.cache
+E:\VisualStudioWorkStation\test1\1000以内素数\obj\Debug\1000以内素数.exe
+E:\VisualStudioWorkStation\test1\1000以内素数\obj\Debug\1000以内素数.pdb

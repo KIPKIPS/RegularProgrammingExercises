@@ -1,0 +1,6 @@
+E:\VisualStudioWorkStation\test1\九九乘法表\bin\Debug\九九乘法表.exe.config
+E:\VisualStudioWorkStation\test1\九九乘法表\bin\Debug\九九乘法表.exe
+E:\VisualStudioWorkStation\test1\九九乘法表\bin\Debug\九九乘法表.pdb
+E:\VisualStudioWorkStation\test1\九九乘法表\obj\Debug\九九乘法表.csproj.CoreCompileInputs.cache
+E:\VisualStudioWorkStation\test1\九九乘法表\obj\Debug\九九乘法表.exe
+E:\VisualStudioWorkStation\test1\九九乘法表\obj\Debug\九九乘法表.pdb
