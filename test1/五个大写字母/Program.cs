@@ -10,34 +10,32 @@ namespace 五个大写字母
     {
         static void Main(string[] args)
         {
-            int count = 0;
-            Console.WriteLine("请输入五个大写字母：");
             while (true)
             {
+                Console.WriteLine("请输入五个大写字母:");
+                string str = Console.ReadLine();
+                bool isAllUpperChar = true;
                 for (int i = 0; i < 5; i++)
                 {
-                    char word = Convert.ToChar(Console.ReadLine());
-                    if (word >= 'a' && word <= 'z')
+                    if (str[i] >= 'A' && str[i] <= 'Z')
                     {
-                        Console.WriteLine("请输入大写字母");
-                    }
-                    if (count < 5)
-                    {
-                        if (word >= 'A' && word <= 'Z')
-                        {
-                            count++;
-                            Console.WriteLine("OK,请继续输入大写字母");
-                            continue;
-                        }
-                    }
 
-                    if (count == 5)
+                    }
+                    else
                     {
+                        isAllUpperChar = false;
                         break;
                     }
                 }
+                if (isAllUpperChar == false)
+                {
+                    Console.WriteLine("重新输入");
+                }
+                if (isAllUpperChar == true)
+                {
+                    Console.WriteLine("OK");
+                }
             }
-            Console.ReadLine();
-         }
+        } 
     }
 }
