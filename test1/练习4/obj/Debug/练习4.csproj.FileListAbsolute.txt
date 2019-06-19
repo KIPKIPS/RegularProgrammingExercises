@@ -1,0 +1,6 @@
+E:\VisualStudioWorkStation\test1\练习4\bin\Debug\练习4.exe.config
+E:\VisualStudioWorkStation\test1\练习4\bin\Debug\练习4.exe
+E:\VisualStudioWorkStation\test1\练习4\bin\Debug\练习4.pdb
+E:\VisualStudioWorkStation\test1\练习4\obj\Debug\练习4.csproj.CoreCompileInputs.cache
+E:\VisualStudioWorkStation\test1\练习4\obj\Debug\练习4.exe
+E:\VisualStudioWorkStation\test1\练习4\obj\Debug\练习4.pdb
