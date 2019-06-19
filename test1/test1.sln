@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "循环练习", "循环练�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "五个大写字母", "五个大写字母\五个大写字母.csproj", "{DD3393F5-9CC0-47D2-91F6-9E5B409C4B21}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "枚举类型", "枚举类型\枚举类型.csproj", "{03A94A3A-04D0-4E66-8F75-624FD41E7B14}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{DD3393F5-9CC0-47D2-91F6-9E5B409C4B21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD3393F5-9CC0-47D2-91F6-9E5B409C4B21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD3393F5-9CC0-47D2-91F6-9E5B409C4B21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03A94A3A-04D0-4E66-8F75-624FD41E7B14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03A94A3A-04D0-4E66-8F75-624FD41E7B14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03A94A3A-04D0-4E66-8F75-624FD41E7B14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03A94A3A-04D0-4E66-8F75-624FD41E7B14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
