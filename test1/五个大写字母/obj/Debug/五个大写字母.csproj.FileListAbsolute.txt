@@ -1,0 +1,7 @@
+E:\VisualStudioWorkStation\test1\五个大写字母\bin\Debug\五个大写字母.exe.config
+E:\VisualStudioWorkStation\test1\五个大写字母\bin\Debug\五个大写字母.exe
+E:\VisualStudioWorkStation\test1\五个大写字母\bin\Debug\五个大写字母.pdb
+E:\VisualStudioWorkStation\test1\五个大写字母\obj\Debug\五个大写字母.csprojAssemblyReference.cache
+E:\VisualStudioWorkStation\test1\五个大写字母\obj\Debug\五个大写字母.csproj.CoreCompileInputs.cache
+E:\VisualStudioWorkStation\test1\五个大写字母\obj\Debug\五个大写字母.exe
+E:\VisualStudioWorkStation\test1\五个大写字母\obj\Debug\五个大写字母.pdb

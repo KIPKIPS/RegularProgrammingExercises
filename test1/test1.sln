@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "九九乘法表", "九九�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "100次骰子", "100次骰子\100次骰子.csproj", "{D5752485-3D3A-46A3-A46E-874618B18D68}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "循环练习", "循环练习\循环练习.csproj", "{D49257AA-8241-4D17-BACF-9B3F594AB2F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "五个大写字母", "五个大写字母\五个大写字母.csproj", "{DD3393F5-9CC0-47D2-91F6-9E5B409C4B21}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{D5752485-3D3A-46A3-A46E-874618B18D68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5752485-3D3A-46A3-A46E-874618B18D68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5752485-3D3A-46A3-A46E-874618B18D68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D49257AA-8241-4D17-BACF-9B3F594AB2F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D49257AA-8241-4D17-BACF-9B3F594AB2F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D49257AA-8241-4D17-BACF-9B3F594AB2F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D49257AA-8241-4D17-BACF-9B3F594AB2F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD3393F5-9CC0-47D2-91F6-9E5B409C4B21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD3393F5-9CC0-47D2-91F6-9E5B409C4B21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD3393F5-9CC0-47D2-91F6-9E5B409C4B21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD3393F5-9CC0-47D2-91F6-9E5B409C4B21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

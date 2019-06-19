@@ -1,0 +1,6 @@
+E:\VisualStudioWorkStation\test1\循环练习\obj\Debug\循环练习.csproj.CoreCompileInputs.cache
+E:\VisualStudioWorkStation\test1\循环练习\bin\Debug\循环练习.exe.config
+E:\VisualStudioWorkStation\test1\循环练习\bin\Debug\循环练习.exe
+E:\VisualStudioWorkStation\test1\循环练习\bin\Debug\循环练习.pdb
+E:\VisualStudioWorkStation\test1\循环练习\obj\Debug\循环练习.exe
+E:\VisualStudioWorkStation\test1\循环练习\obj\Debug\循环练习.pdb
