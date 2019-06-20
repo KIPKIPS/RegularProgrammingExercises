@@ -19,6 +19,8 @@ namespace 升序输出数字
             {
                 num[i] = Convert.ToInt32(strTemp[i]);
             }
+
+            //冒泡排序
             for (int i = 0; i < num.Length; i++)
             {
                 for (int j = 0; j < num.Length - 1 - i; j++)
