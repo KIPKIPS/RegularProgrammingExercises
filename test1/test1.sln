@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "最小交换数", "最小�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "插入不乱序", "插入不乱序\插入不乱序.csproj", "{63E361E8-40EC-4174-A254-B4155B2BF58C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "工资不找零", "工资不找零\工资不找零.csproj", "{D802F55E-A9B9-4E76-86E2-6B58A55551A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{63E361E8-40EC-4174-A254-B4155B2BF58C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63E361E8-40EC-4174-A254-B4155B2BF58C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63E361E8-40EC-4174-A254-B4155B2BF58C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D802F55E-A9B9-4E76-86E2-6B58A55551A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D802F55E-A9B9-4E76-86E2-6B58A55551A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D802F55E-A9B9-4E76-86E2-6B58A55551A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D802F55E-A9B9-4E76-86E2-6B58A55551A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

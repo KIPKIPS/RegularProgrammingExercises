@@ -1,0 +1,6 @@
+E:\VisualStudioWorkStation\test1\工资不找零\bin\Debug\工资不找零.exe.config
+E:\VisualStudioWorkStation\test1\工资不找零\bin\Debug\工资不找零.exe
+E:\VisualStudioWorkStation\test1\工资不找零\bin\Debug\工资不找零.pdb
+E:\VisualStudioWorkStation\test1\工资不找零\obj\Debug\工资不找零.csproj.CoreCompileInputs.cache
+E:\VisualStudioWorkStation\test1\工资不找零\obj\Debug\工资不找零.exe
+E:\VisualStudioWorkStation\test1\工资不找零\obj\Debug\工资不找零.pdb
