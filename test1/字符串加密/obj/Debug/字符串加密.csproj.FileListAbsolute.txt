@@ -1,0 +1,6 @@
+E:\VisualStudioWorkStation\test1\字符串加密\bin\Debug\字符串加密.exe.config
+E:\VisualStudioWorkStation\test1\字符串加密\bin\Debug\字符串加密.exe
+E:\VisualStudioWorkStation\test1\字符串加密\bin\Debug\字符串加密.pdb
+E:\VisualStudioWorkStation\test1\字符串加密\obj\Debug\字符串加密.csproj.CoreCompileInputs.cache
+E:\VisualStudioWorkStation\test1\字符串加密\obj\Debug\字符串加密.exe
+E:\VisualStudioWorkStation\test1\字符串加密\obj\Debug\字符串加密.pdb

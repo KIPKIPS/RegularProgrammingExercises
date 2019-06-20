@@ -10,7 +10,8 @@ namespace 猜数字
     {
         static void Main(string[] args)
         {
-            int num = 45;
+            Random ra = new Random();
+            int num = ra.Next(1,51);
             bool go = true;
             Console.WriteLine("请输入一个0到50的数字");
             while (go)
