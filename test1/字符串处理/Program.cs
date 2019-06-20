@@ -19,7 +19,7 @@ namespace 字符串处理
             Console.WriteLine(str1.TrimEnd());//移除尾部空格
             Console.WriteLine(str1.TrimStart());//移除头部空格
 
-            //Split函数使用
+            //Split函数使用,Split按照字符分割字符串
             string str2 = "asdf.a.sdf.asf.as.fd.asf.as.f.df.f.se.g.th.f.g.sd.wt.ywt.h.fghd.df.hd.gs.shg.rth.fg";
             string[] str3=str2.Split('.');
             foreach(string temp in str3)

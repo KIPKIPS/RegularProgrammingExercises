@@ -31,6 +31,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "数组的遍历", "数组�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "字符串处理", "字符串处理\字符串处理.csproj", "{4F8A0D49-838C-4D88-B151-06ED408FD1A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "水仙花数", "水仙花数\水仙花数.csproj", "{5232F2DF-E377-4FE9-81BF-96C000109453}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "可乐瓶", "可乐瓶\可乐瓶.csproj", "{A85966CF-2DC6-4B88-8F11-C995D6ED52DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "猜数字", "猜数字\猜数字.csproj", "{63DF76AA-D9A1-49C1-AA15-64EB6382B6E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +99,18 @@ Global
 		{4F8A0D49-838C-4D88-B151-06ED408FD1A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F8A0D49-838C-4D88-B151-06ED408FD1A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F8A0D49-838C-4D88-B151-06ED408FD1A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5232F2DF-E377-4FE9-81BF-96C000109453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5232F2DF-E377-4FE9-81BF-96C000109453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5232F2DF-E377-4FE9-81BF-96C000109453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5232F2DF-E377-4FE9-81BF-96C000109453}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A85966CF-2DC6-4B88-8F11-C995D6ED52DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A85966CF-2DC6-4B88-8F11-C995D6ED52DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A85966CF-2DC6-4B88-8F11-C995D6ED52DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A85966CF-2DC6-4B88-8F11-C995D6ED52DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63DF76AA-D9A1-49C1-AA15-64EB6382B6E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63DF76AA-D9A1-49C1-AA15-64EB6382B6E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63DF76AA-D9A1-49C1-AA15-64EB6382B6E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63DF76AA-D9A1-49C1-AA15-64EB6382B6E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

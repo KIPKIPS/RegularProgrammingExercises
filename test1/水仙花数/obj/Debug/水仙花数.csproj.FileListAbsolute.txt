@@ -1,0 +1,6 @@
+E:\VisualStudioWorkStation\test1\水仙花数\bin\Debug\水仙花数.exe.config
+E:\VisualStudioWorkStation\test1\水仙花数\bin\Debug\水仙花数.exe
+E:\VisualStudioWorkStation\test1\水仙花数\bin\Debug\水仙花数.pdb
+E:\VisualStudioWorkStation\test1\水仙花数\obj\Debug\水仙花数.csproj.CoreCompileInputs.cache
+E:\VisualStudioWorkStation\test1\水仙花数\obj\Debug\水仙花数.exe
+E:\VisualStudioWorkStation\test1\水仙花数\obj\Debug\水仙花数.pdb
