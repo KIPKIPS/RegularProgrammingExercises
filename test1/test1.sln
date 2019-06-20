@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "五个大写字母", "五�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "枚举类型", "枚举类型\枚举类型.csproj", "{03A94A3A-04D0-4E66-8F75-624FD41E7B14}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "结构体", "结构体\结构体.csproj", "{5B0AD139-FE2B-410C-9FE4-C7EE0CDF8F0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "数组的遍历", "数组的遍历\数组的遍历.csproj", "{CC66A62F-CB65-4C86-B50B-FF5A9AD36C00}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{03A94A3A-04D0-4E66-8F75-624FD41E7B14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03A94A3A-04D0-4E66-8F75-624FD41E7B14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03A94A3A-04D0-4E66-8F75-624FD41E7B14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B0AD139-FE2B-410C-9FE4-C7EE0CDF8F0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B0AD139-FE2B-410C-9FE4-C7EE0CDF8F0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B0AD139-FE2B-410C-9FE4-C7EE0CDF8F0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B0AD139-FE2B-410C-9FE4-C7EE0CDF8F0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC66A62F-CB65-4C86-B50B-FF5A9AD36C00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC66A62F-CB65-4C86-B50B-FF5A9AD36C00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC66A62F-CB65-4C86-B50B-FF5A9AD36C00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC66A62F-CB65-4C86-B50B-FF5A9AD36C00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
