@@ -1,0 +1,7 @@
+E:\VisualStudioWorkStation\test1\蟠桃问题\bin\Debug\蟠桃问题.exe.config
+E:\VisualStudioWorkStation\test1\蟠桃问题\bin\Debug\蟠桃问题.exe
+E:\VisualStudioWorkStation\test1\蟠桃问题\bin\Debug\蟠桃问题.pdb
+E:\VisualStudioWorkStation\test1\蟠桃问题\obj\Debug\蟠桃问题.csprojAssemblyReference.cache
+E:\VisualStudioWorkStation\test1\蟠桃问题\obj\Debug\蟠桃问题.csproj.CoreCompileInputs.cache
+E:\VisualStudioWorkStation\test1\蟠桃问题\obj\Debug\蟠桃问题.exe
+E:\VisualStudioWorkStation\test1\蟠桃问题\obj\Debug\蟠桃问题.pdb
