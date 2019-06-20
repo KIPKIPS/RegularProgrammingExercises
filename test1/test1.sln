@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "插入不乱序", "插入�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "工资不找零", "工资不找零\工资不找零.csproj", "{D802F55E-A9B9-4E76-86E2-6B58A55551A9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C sharp合法字符判断", "C sharp合法字符判断\C sharp合法字符判断.csproj", "{9506ABBF-DC6A-4224-A254-B3213B0F0B13}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{D802F55E-A9B9-4E76-86E2-6B58A55551A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D802F55E-A9B9-4E76-86E2-6B58A55551A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D802F55E-A9B9-4E76-86E2-6B58A55551A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9506ABBF-DC6A-4224-A254-B3213B0F0B13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9506ABBF-DC6A-4224-A254-B3213B0F0B13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9506ABBF-DC6A-4224-A254-B3213B0F0B13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9506ABBF-DC6A-4224-A254-B3213B0F0B13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
