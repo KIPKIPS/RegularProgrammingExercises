@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "蟠桃问题", "蟠桃问�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "最小交换数", "最小交换数\最小交换数.csproj", "{BC7554D0-43D6-45ED-AD88-03C0F315DBDA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "插入不乱序", "插入不乱序\插入不乱序.csproj", "{63E361E8-40EC-4174-A254-B4155B2BF58C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{BC7554D0-43D6-45ED-AD88-03C0F315DBDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC7554D0-43D6-45ED-AD88-03C0F315DBDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC7554D0-43D6-45ED-AD88-03C0F315DBDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63E361E8-40EC-4174-A254-B4155B2BF58C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63E361E8-40EC-4174-A254-B4155B2BF58C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63E361E8-40EC-4174-A254-B4155B2BF58C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63E361E8-40EC-4174-A254-B4155B2BF58C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

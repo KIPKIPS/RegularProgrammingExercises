@@ -14,12 +14,10 @@ namespace 最小交换数
             Console.WriteLine("请输入数字串(以空格分隔)：");
             string input = Console.ReadLine();
             string[] strTemp = input.Split(' ');
-            int[] num = new int[strTemp.Length];
-            Console.WriteLine("你输入的数字串为：");
+            int[] num = new int[strTemp.Length];    
             for (int i = 0; i < strTemp.Length; i++)
             {
                 num[i] = Convert.ToInt32(strTemp[i]);
-                Console.Write(num[i] + " ");
             }
             min = num[0];
             for(int i = 1; i < num.Length; i++)
