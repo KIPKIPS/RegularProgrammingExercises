@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "结构体", "结构体\结�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "数组的遍历", "数组的遍历\数组的遍历.csproj", "{CC66A62F-CB65-4C86-B50B-FF5A9AD36C00}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "字符串处理", "字符串处理\字符串处理.csproj", "{4F8A0D49-838C-4D88-B151-06ED408FD1A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{CC66A62F-CB65-4C86-B50B-FF5A9AD36C00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC66A62F-CB65-4C86-B50B-FF5A9AD36C00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC66A62F-CB65-4C86-B50B-FF5A9AD36C00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F8A0D49-838C-4D88-B151-06ED408FD1A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F8A0D49-838C-4D88-B151-06ED408FD1A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F8A0D49-838C-4D88-B151-06ED408FD1A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F8A0D49-838C-4D88-B151-06ED408FD1A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

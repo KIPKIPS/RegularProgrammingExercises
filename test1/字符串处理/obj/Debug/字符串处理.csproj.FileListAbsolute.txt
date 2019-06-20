@@ -1,0 +1,6 @@
+E:\VisualStudioWorkStation\test1\字符串处理\bin\Debug\字符串处理.exe.config
+E:\VisualStudioWorkStation\test1\字符串处理\bin\Debug\字符串处理.exe
+E:\VisualStudioWorkStation\test1\字符串处理\bin\Debug\字符串处理.pdb
+E:\VisualStudioWorkStation\test1\字符串处理\obj\Debug\字符串处理.csproj.CoreCompileInputs.cache
+E:\VisualStudioWorkStation\test1\字符串处理\obj\Debug\字符串处理.exe
+E:\VisualStudioWorkStation\test1\字符串处理\obj\Debug\字符串处理.pdb
