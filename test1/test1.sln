@@ -61,6 +61,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "函数求因子", "函数�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "函数求数组最大值", "函数求数组最大值\函数求数组最大值.csproj", "{D4C5D9F5-6C66-46AB-A70F-9E20A9CECB57}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "结构体函数", "结构体函数\结构体函数.csproj", "{EEA68005-2EC7-4647-9DBF-53A38D41F2A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "函数重载", "函数重载\函数重载.csproj", "{32111CDF-4E2F-437B-B082-A0EDFDEF913C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -183,6 +187,14 @@ Global
 		{D4C5D9F5-6C66-46AB-A70F-9E20A9CECB57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4C5D9F5-6C66-46AB-A70F-9E20A9CECB57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4C5D9F5-6C66-46AB-A70F-9E20A9CECB57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEA68005-2EC7-4647-9DBF-53A38D41F2A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEA68005-2EC7-4647-9DBF-53A38D41F2A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEA68005-2EC7-4647-9DBF-53A38D41F2A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEA68005-2EC7-4647-9DBF-53A38D41F2A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32111CDF-4E2F-437B-B082-A0EDFDEF913C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32111CDF-4E2F-437B-B082-A0EDFDEF913C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32111CDF-4E2F-437B-B082-A0EDFDEF913C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32111CDF-4E2F-437B-B082-A0EDFDEF913C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
