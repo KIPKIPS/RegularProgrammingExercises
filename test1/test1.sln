@@ -57,6 +57,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "回文串", "回文串\回�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "安全密码检测", "安全密码检测\安全密码检测.csproj", "{072A416D-436E-4655-976F-37DDF9348228}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "函数求因子", "函数求因子\函数求因子.csproj", "{030CAA03-CE9A-4BC3-957C-B46BD2E8DA44}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -171,6 +173,10 @@ Global
 		{072A416D-436E-4655-976F-37DDF9348228}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{072A416D-436E-4655-976F-37DDF9348228}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{072A416D-436E-4655-976F-37DDF9348228}.Release|Any CPU.Build.0 = Release|Any CPU
+		{030CAA03-CE9A-4BC3-957C-B46BD2E8DA44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{030CAA03-CE9A-4BC3-957C-B46BD2E8DA44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{030CAA03-CE9A-4BC3-957C-B46BD2E8DA44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{030CAA03-CE9A-4BC3-957C-B46BD2E8DA44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
