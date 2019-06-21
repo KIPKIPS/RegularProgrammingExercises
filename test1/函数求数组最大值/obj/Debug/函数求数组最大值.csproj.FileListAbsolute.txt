@@ -1,0 +1,7 @@
+E:\VisualStudioWorkStation\test1\函数求数组最大值\bin\Debug\函数求数组最大值.exe.config
+E:\VisualStudioWorkStation\test1\函数求数组最大值\bin\Debug\函数求数组最大值.exe
+E:\VisualStudioWorkStation\test1\函数求数组最大值\bin\Debug\函数求数组最大值.pdb
+E:\VisualStudioWorkStation\test1\函数求数组最大值\obj\Debug\函数求数组最大值.csprojAssemblyReference.cache
+E:\VisualStudioWorkStation\test1\函数求数组最大值\obj\Debug\函数求数组最大值.csproj.CoreCompileInputs.cache
+E:\VisualStudioWorkStation\test1\函数求数组最大值\obj\Debug\函数求数组最大值.exe
+E:\VisualStudioWorkStation\test1\函数求数组最大值\obj\Debug\函数求数组最大值.pdb
