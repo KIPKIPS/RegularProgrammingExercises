@@ -1,0 +1,6 @@
+E:\VisualStudioWorkStation\test1\1到20的阶乘之和\bin\Debug\1到20的阶乘之和.exe.config
+E:\VisualStudioWorkStation\test1\1到20的阶乘之和\bin\Debug\1到20的阶乘之和.exe
+E:\VisualStudioWorkStation\test1\1到20的阶乘之和\bin\Debug\1到20的阶乘之和.pdb
+E:\VisualStudioWorkStation\test1\1到20的阶乘之和\obj\Debug\1到20的阶乘之和.csproj.CoreCompileInputs.cache
+E:\VisualStudioWorkStation\test1\1到20的阶乘之和\obj\Debug\1到20的阶乘之和.exe
+E:\VisualStudioWorkStation\test1\1到20的阶乘之和\obj\Debug\1到20的阶乘之和.pdb
