@@ -53,6 +53,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "工资不找零", "工资�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C sharp合法字符判断", "C sharp合法字符判断\C sharp合法字符判断.csproj", "{9506ABBF-DC6A-4224-A254-B3213B0F0B13}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "回文串", "回文串\回文串.csproj", "{7301C1F3-A08E-422A-9906-02D6D1DCE32A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "安全密码检测", "安全密码检测\安全密码检测.csproj", "{072A416D-436E-4655-976F-37DDF9348228}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +163,14 @@ Global
 		{9506ABBF-DC6A-4224-A254-B3213B0F0B13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9506ABBF-DC6A-4224-A254-B3213B0F0B13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9506ABBF-DC6A-4224-A254-B3213B0F0B13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7301C1F3-A08E-422A-9906-02D6D1DCE32A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7301C1F3-A08E-422A-9906-02D6D1DCE32A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7301C1F3-A08E-422A-9906-02D6D1DCE32A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7301C1F3-A08E-422A-9906-02D6D1DCE32A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{072A416D-436E-4655-976F-37DDF9348228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{072A416D-436E-4655-976F-37DDF9348228}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{072A416D-436E-4655-976F-37DDF9348228}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{072A416D-436E-4655-976F-37DDF9348228}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
