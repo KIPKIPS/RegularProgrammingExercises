@@ -18,17 +18,13 @@ namespace f_n__f_n_1__f_n_2_
             for (int i = 2; i <= 40; i++)
             {
                 f[i] = f[i - 1] + f[i - 2];
-                
             }
-
-            //递归方法
-
             Console.WriteLine("普通方法: "+f[40]);
             Console.WriteLine("递归方法: "+f1(40));
             Console.ReadLine();
 ;
-        }
-
+        } 
+        //递归方法
         static int f1(int n)
         {
             if (n == 0) return 2;

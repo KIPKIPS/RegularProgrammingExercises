@@ -11,11 +11,12 @@ namespace 小球反弹落地问题
         static void Main(string[] args)
         {
             float height= 100;
-            float sumDistance=100;
-            for (int i = 1; i < 10; i++)
+            float sumDistance=0;
+            for (int i = 1; i < 11; i++)
             {
-                height = height / 2;
                 sumDistance = sumDistance + height;
+                height = height / 2;
+                
             }
             Console.WriteLine("第十次高度为: "+height);
             Console.WriteLine();
