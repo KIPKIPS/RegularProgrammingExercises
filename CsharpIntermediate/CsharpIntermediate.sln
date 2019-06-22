@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreakPointTest", "BreakPoin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vector3", "Vector3\Vector3.csproj", "{5171EB48-C4CE-4415-BE88-3B59A94A0400}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "构造函数", "构造函数\构造函数.csproj", "{9BC78445-87F7-4CD2-85C3-B6EB248953AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5171EB48-C4CE-4415-BE88-3B59A94A0400}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5171EB48-C4CE-4415-BE88-3B59A94A0400}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5171EB48-C4CE-4415-BE88-3B59A94A0400}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BC78445-87F7-4CD2-85C3-B6EB248953AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BC78445-87F7-4CD2-85C3-B6EB248953AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BC78445-87F7-4CD2-85C3-B6EB248953AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BC78445-87F7-4CD2-85C3-B6EB248953AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
