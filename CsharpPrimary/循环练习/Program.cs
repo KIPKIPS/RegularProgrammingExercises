@@ -14,6 +14,7 @@ namespace 循环练习
             for(int i = 1; i < 6; i++)
             {
                 Console.Write(i * i + "  ");
+
             }
             Console.WriteLine();
             Console.WriteLine("do while循环实现1到5的平方数输出");
