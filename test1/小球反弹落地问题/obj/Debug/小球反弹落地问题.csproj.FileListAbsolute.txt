@@ -1,7 +1,0 @@
-E:\VisualStudioWorkStation\test1\小球反弹落地问题\bin\Debug\小球反弹落地问题.exe.config
-E:\VisualStudioWorkStation\test1\小球反弹落地问题\bin\Debug\小球反弹落地问题.exe
-E:\VisualStudioWorkStation\test1\小球反弹落地问题\bin\Debug\小球反弹落地问题.pdb
-E:\VisualStudioWorkStation\test1\小球反弹落地问题\obj\Debug\小球反弹落地问题.csproj.CoreCompileInputs.cache
-E:\VisualStudioWorkStation\test1\小球反弹落地问题\obj\Debug\小球反弹落地问题.exe
-E:\VisualStudioWorkStation\test1\小球反弹落地问题\obj\Debug\小球反弹落地问题.pdb
-E:\VisualStudioWorkStation\test1\小球反弹落地问题\obj\Debug\小球反弹落地问题.csprojAssemblyReference.cache

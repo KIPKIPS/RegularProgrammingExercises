@@ -1,7 +1,0 @@
-E:\VisualStudioWorkStation\test1\四舍五入\bin\Debug\四舍五入.exe.config
-E:\VisualStudioWorkStation\test1\四舍五入\bin\Debug\四舍五入.exe
-E:\VisualStudioWorkStation\test1\四舍五入\bin\Debug\四舍五入.pdb
-E:\VisualStudioWorkStation\test1\四舍五入\obj\Debug\四舍五入.csprojAssemblyReference.cache
-E:\VisualStudioWorkStation\test1\四舍五入\obj\Debug\四舍五入.csproj.CoreCompileInputs.cache
-E:\VisualStudioWorkStation\test1\四舍五入\obj\Debug\四舍五入.exe
-E:\VisualStudioWorkStation\test1\四舍五入\obj\Debug\四舍五入.pdb

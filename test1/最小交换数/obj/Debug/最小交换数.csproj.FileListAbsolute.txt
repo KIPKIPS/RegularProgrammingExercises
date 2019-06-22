@@ -1,7 +1,0 @@
-E:\VisualStudioWorkStation\test1\最小交换数\bin\Debug\最小交换数.exe.config
-E:\VisualStudioWorkStation\test1\最小交换数\bin\Debug\最小交换数.exe
-E:\VisualStudioWorkStation\test1\最小交换数\bin\Debug\最小交换数.pdb
-E:\VisualStudioWorkStation\test1\最小交换数\obj\Debug\最小交换数.csprojAssemblyReference.cache
-E:\VisualStudioWorkStation\test1\最小交换数\obj\Debug\最小交换数.csproj.CoreCompileInputs.cache
-E:\VisualStudioWorkStation\test1\最小交换数\obj\Debug\最小交换数.exe
-E:\VisualStudioWorkStation\test1\最小交换数\obj\Debug\最小交换数.pdb

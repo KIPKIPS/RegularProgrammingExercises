@@ -1,7 +1,0 @@
-E:\VisualStudioWorkStation\test1\分解质因数\bin\Debug\分解质因数.exe.config
-E:\VisualStudioWorkStation\test1\分解质因数\bin\Debug\分解质因数.exe
-E:\VisualStudioWorkStation\test1\分解质因数\bin\Debug\分解质因数.pdb
-E:\VisualStudioWorkStation\test1\分解质因数\obj\Debug\分解质因数.csprojAssemblyReference.cache
-E:\VisualStudioWorkStation\test1\分解质因数\obj\Debug\分解质因数.csproj.CoreCompileInputs.cache
-E:\VisualStudioWorkStation\test1\分解质因数\obj\Debug\分解质因数.exe
-E:\VisualStudioWorkStation\test1\分解质因数\obj\Debug\分解质因数.pdb

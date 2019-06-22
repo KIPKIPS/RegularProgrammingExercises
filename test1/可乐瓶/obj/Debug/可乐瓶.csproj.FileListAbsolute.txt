@@ -1,7 +1,0 @@
-E:\VisualStudioWorkStation\test1\可乐瓶\bin\Debug\可乐瓶.exe.config
-E:\VisualStudioWorkStation\test1\可乐瓶\bin\Debug\可乐瓶.exe
-E:\VisualStudioWorkStation\test1\可乐瓶\bin\Debug\可乐瓶.pdb
-E:\VisualStudioWorkStation\test1\可乐瓶\obj\Debug\可乐瓶.csprojAssemblyReference.cache
-E:\VisualStudioWorkStation\test1\可乐瓶\obj\Debug\可乐瓶.csproj.CoreCompileInputs.cache
-E:\VisualStudioWorkStation\test1\可乐瓶\obj\Debug\可乐瓶.exe
-E:\VisualStudioWorkStation\test1\可乐瓶\obj\Debug\可乐瓶.pdb

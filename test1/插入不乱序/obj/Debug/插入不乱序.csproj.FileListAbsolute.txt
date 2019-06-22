@@ -1,7 +1,0 @@
-E:\VisualStudioWorkStation\test1\插入不乱序\bin\Debug\插入不乱序.exe.config
-E:\VisualStudioWorkStation\test1\插入不乱序\bin\Debug\插入不乱序.exe
-E:\VisualStudioWorkStation\test1\插入不乱序\bin\Debug\插入不乱序.pdb
-E:\VisualStudioWorkStation\test1\插入不乱序\obj\Debug\插入不乱序.csprojAssemblyReference.cache
-E:\VisualStudioWorkStation\test1\插入不乱序\obj\Debug\插入不乱序.csproj.CoreCompileInputs.cache
-E:\VisualStudioWorkStation\test1\插入不乱序\obj\Debug\插入不乱序.exe
-E:\VisualStudioWorkStation\test1\插入不乱序\obj\Debug\插入不乱序.pdb

@@ -1,7 +1,0 @@
-E:\VisualStudioWorkStation\test1\f(n)=f(n-1)+f(n-2)\bin\Debug\f(n)=f(n-1)+f(n-2).exe.config
-E:\VisualStudioWorkStation\test1\f(n)=f(n-1)+f(n-2)\bin\Debug\f(n)=f(n-1)+f(n-2).exe
-E:\VisualStudioWorkStation\test1\f(n)=f(n-1)+f(n-2)\bin\Debug\f(n)=f(n-1)+f(n-2).pdb
-E:\VisualStudioWorkStation\test1\f(n)=f(n-1)+f(n-2)\obj\Debug\f(n)=f(n-1)+f(n-2).csprojAssemblyReference.cache
-E:\VisualStudioWorkStation\test1\f(n)=f(n-1)+f(n-2)\obj\Debug\f(n)=f(n-1)+f(n-2).csproj.CoreCompileInputs.cache
-E:\VisualStudioWorkStation\test1\f(n)=f(n-1)+f(n-2)\obj\Debug\f(n)=f(n-1)+f(n-2).exe
-E:\VisualStudioWorkStation\test1\f(n)=f(n-1)+f(n-2)\obj\Debug\f(n)=f(n-1)+f(n-2).pdb

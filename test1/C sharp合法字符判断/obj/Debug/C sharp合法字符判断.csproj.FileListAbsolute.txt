@@ -1,7 +1,0 @@
-E:\VisualStudioWorkStation\test1\C sharp合法字符判断\bin\Debug\C sharp合法字符判断.exe.config
-E:\VisualStudioWorkStation\test1\C sharp合法字符判断\bin\Debug\C sharp合法字符判断.exe
-E:\VisualStudioWorkStation\test1\C sharp合法字符判断\bin\Debug\C sharp合法字符判断.pdb
-E:\VisualStudioWorkStation\test1\C sharp合法字符判断\obj\Debug\C sharp合法字符判断.csprojAssemblyReference.cache
-E:\VisualStudioWorkStation\test1\C sharp合法字符判断\obj\Debug\C sharp合法字符判断.csproj.CoreCompileInputs.cache
-E:\VisualStudioWorkStation\test1\C sharp合法字符判断\obj\Debug\C sharp合法字符判断.exe
-E:\VisualStudioWorkStation\test1\C sharp合法字符判断\obj\Debug\C sharp合法字符判断.pdb

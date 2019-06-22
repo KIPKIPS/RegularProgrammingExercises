@@ -1,7 +1,0 @@
-E:\VisualStudioWorkStation\test1\回文串\bin\Debug\回文串.exe.config
-E:\VisualStudioWorkStation\test1\回文串\bin\Debug\回文串.exe
-E:\VisualStudioWorkStation\test1\回文串\bin\Debug\回文串.pdb
-E:\VisualStudioWorkStation\test1\回文串\obj\Debug\回文串.csprojAssemblyReference.cache
-E:\VisualStudioWorkStation\test1\回文串\obj\Debug\回文串.csproj.CoreCompileInputs.cache
-E:\VisualStudioWorkStation\test1\回文串\obj\Debug\回文串.exe
-E:\VisualStudioWorkStation\test1\回文串\obj\Debug\回文串.pdb

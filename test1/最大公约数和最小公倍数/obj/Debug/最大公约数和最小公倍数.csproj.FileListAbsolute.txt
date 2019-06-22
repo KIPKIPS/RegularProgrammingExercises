@@ -1,6 +1,0 @@
-E:\VisualStudioWorkStation\test1\最大公约数和最小公倍数\bin\Debug\最大公约数和最小公倍数.exe.config
-E:\VisualStudioWorkStation\test1\最大公约数和最小公倍数\bin\Debug\最大公约数和最小公倍数.exe
-E:\VisualStudioWorkStation\test1\最大公约数和最小公倍数\bin\Debug\最大公约数和最小公倍数.pdb
-E:\VisualStudioWorkStation\test1\最大公约数和最小公倍数\obj\Debug\最大公约数和最小公倍数.csproj.CoreCompileInputs.cache
-E:\VisualStudioWorkStation\test1\最大公约数和最小公倍数\obj\Debug\最大公约数和最小公倍数.exe
-E:\VisualStudioWorkStation\test1\最大公约数和最小公倍数\obj\Debug\最大公约数和最小公倍数.pdb

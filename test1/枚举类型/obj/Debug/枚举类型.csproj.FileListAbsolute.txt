@@ -1,7 +1,0 @@
-E:\VisualStudioWorkStation\test1\枚举类型\bin\Debug\枚举类型.exe.config
-E:\VisualStudioWorkStation\test1\枚举类型\bin\Debug\枚举类型.exe
-E:\VisualStudioWorkStation\test1\枚举类型\bin\Debug\枚举类型.pdb
-E:\VisualStudioWorkStation\test1\枚举类型\obj\Debug\枚举类型.csprojAssemblyReference.cache
-E:\VisualStudioWorkStation\test1\枚举类型\obj\Debug\枚举类型.csproj.CoreCompileInputs.cache
-E:\VisualStudioWorkStation\test1\枚举类型\obj\Debug\枚举类型.exe
-E:\VisualStudioWorkStation\test1\枚举类型\obj\Debug\枚举类型.pdb

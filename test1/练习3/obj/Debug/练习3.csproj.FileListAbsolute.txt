@@ -1,7 +1,0 @@
-E:\VisualStudioWorkStation\test1\练习3\bin\Debug\练习3.exe.config
-E:\VisualStudioWorkStation\test1\练习3\bin\Debug\练习3.exe
-E:\VisualStudioWorkStation\test1\练习3\bin\Debug\练习3.pdb
-E:\VisualStudioWorkStation\test1\练习3\obj\Debug\练习3.csprojAssemblyReference.cache
-E:\VisualStudioWorkStation\test1\练习3\obj\Debug\练习3.csproj.CoreCompileInputs.cache
-E:\VisualStudioWorkStation\test1\练习3\obj\Debug\练习3.exe
-E:\VisualStudioWorkStation\test1\练习3\obj\Debug\练习3.pdb

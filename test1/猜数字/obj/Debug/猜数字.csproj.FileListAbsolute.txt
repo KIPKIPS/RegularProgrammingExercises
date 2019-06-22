@@ -1,7 +1,0 @@
-E:\VisualStudioWorkStation\test1\猜数字\bin\Debug\猜数字.exe.config
-E:\VisualStudioWorkStation\test1\猜数字\bin\Debug\猜数字.exe
-E:\VisualStudioWorkStation\test1\猜数字\bin\Debug\猜数字.pdb
-E:\VisualStudioWorkStation\test1\猜数字\obj\Debug\猜数字.csprojAssemblyReference.cache
-E:\VisualStudioWorkStation\test1\猜数字\obj\Debug\猜数字.csproj.CoreCompileInputs.cache
-E:\VisualStudioWorkStation\test1\猜数字\obj\Debug\猜数字.exe
-E:\VisualStudioWorkStation\test1\猜数字\obj\Debug\猜数字.pdb

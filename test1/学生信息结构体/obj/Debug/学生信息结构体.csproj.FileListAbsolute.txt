@@ -1,7 +1,0 @@
-E:\VisualStudioWorkStation\test1\学生信息结构体\bin\Debug\学生信息结构体.exe.config
-E:\VisualStudioWorkStation\test1\学生信息结构体\bin\Debug\学生信息结构体.exe
-E:\VisualStudioWorkStation\test1\学生信息结构体\bin\Debug\学生信息结构体.pdb
-E:\VisualStudioWorkStation\test1\学生信息结构体\obj\Debug\学生信息结构体.csproj.CoreCompileInputs.cache
-E:\VisualStudioWorkStation\test1\学生信息结构体\obj\Debug\学生信息结构体.exe
-E:\VisualStudioWorkStation\test1\学生信息结构体\obj\Debug\学生信息结构体.pdb
-E:\VisualStudioWorkStation\test1\学生信息结构体\obj\Debug\学生信息结构体.csprojAssemblyReference.cache
