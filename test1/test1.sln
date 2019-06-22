@@ -81,6 +81,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "学生信息结构体", "�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "四舍五入", "四舍五入\四舍五入.csproj", "{2E8AC3FA-B741-4D24-94BC-017EA71D829F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "递归求5的阶乘", "递归求5的阶乘\递归求5的阶乘.csproj", "{BEEE9A5D-78EE-4B76-BC02-2DCDFBA92FB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "求K值", "求K值\求K值.csproj", "{BE857C8A-E38E-4EC4-8417-BFF00E169BB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "百钱买百鸡问题", "百钱买百鸡问题\百钱买百鸡问题.csproj", "{C2806A77-503E-4CAE-8DEC-35C7D4B88C37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -243,6 +249,18 @@ Global
 		{2E8AC3FA-B741-4D24-94BC-017EA71D829F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E8AC3FA-B741-4D24-94BC-017EA71D829F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E8AC3FA-B741-4D24-94BC-017EA71D829F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEEE9A5D-78EE-4B76-BC02-2DCDFBA92FB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEEE9A5D-78EE-4B76-BC02-2DCDFBA92FB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEEE9A5D-78EE-4B76-BC02-2DCDFBA92FB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEEE9A5D-78EE-4B76-BC02-2DCDFBA92FB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE857C8A-E38E-4EC4-8417-BFF00E169BB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE857C8A-E38E-4EC4-8417-BFF00E169BB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE857C8A-E38E-4EC4-8417-BFF00E169BB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE857C8A-E38E-4EC4-8417-BFF00E169BB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2806A77-503E-4CAE-8DEC-35C7D4B88C37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2806A77-503E-4CAE-8DEC-35C7D4B88C37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2806A77-503E-4CAE-8DEC-35C7D4B88C37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2806A77-503E-4CAE-8DEC-35C7D4B88C37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
