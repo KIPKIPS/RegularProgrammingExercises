@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace 接口的定义和实现
 {
-    interface IFsatFly
+    public interface IFastFly:IFly
     {
+        void FastFly();
     }
 }

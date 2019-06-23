@@ -11,22 +11,21 @@ namespace 派生类的构造方法
     {
         private int y;
 
-        public void setY(int y)
+        public void SetY(int y)
         {
-
             this.y = y;
         }
 
-        public int getY()
+        public int GetY()
         {
-            return this.y;
+            return y;
         }
         public DerivedClass():base()//调用父类中无参的构造函数
         {
             Console.WriteLine("DerivedClass无参的构造函数");
         }
 
-        public DerivedClass(int x, int y):base(x)//DeriverClass的有参构造函数
+        public DerivedClass(int x, int y):base(x)//DerivedClass的有参构造函数
         {
             this.y = y;
             Console.WriteLine("Y赋值完成");

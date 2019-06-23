@@ -17,7 +17,7 @@ namespace 派生类的构造方法
 
         public int GetX()
         {
-            return this.x;
+            return x;
         }
         public BaseClass()//BaseClass构造函数
         {
