@@ -21,11 +21,12 @@ namespace 列表List的创建和使用
             num2.Insert(0,666);
 
             str.Insert(3,null);//null类型不能插入到int,char等类型的列表,可以插入到string类型的列表中去
-
+            
+            Console.WriteLine(num2.IndexOf(664536));
 
             num2.InsertRange(4,num);//将num插入num2的索引4位置
-            num2.Remove(15);
-            num2.Sort();
+            Console.WriteLine(num2.Count);
+            //num2.Sort();
             foreach (var VARIABLE in num2)
             {
                 Console.Write(VARIABLE+" ");
