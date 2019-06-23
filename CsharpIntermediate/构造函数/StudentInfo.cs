@@ -7,35 +7,27 @@ using System.Threading.Tasks;
 
 namespace 构造函数
 {
-    class StudentInfo
+    public class StudentInfo
     {
-        private string name;
-        private int age;
 
         //有参的构造函数
-        public StudentInfo(string name,int age)
+        public StudentInfo(string name, int age)
         {
-            this.name = name;
-            this.age = age;
-        }  
+            this.Name = name;
+            this.Age = age;
+        }
 
         public string ShowName()
         {
-            return name;
-        }
-        public int ShowAge()
-        {
-            return age;
+            return Name;
         }
 
-        public string Name
+        public int ShowAge()
         {
-            set { name = value; }
-            get { return name; }
-        }public int Age
-        {
-            set { age = value; }
-            get { return age; }
+            return Age;
         }
+
+        public string Name { set; get; }
+        public int Age { set; get; }
     }
 }

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9BC78445-87F7-4CD2-85C3-B6EB248953AB}</ProjectGuid>
+    <ProjectGuid>{CEC8AC62-E851-41CC-B9DB-4392F2986736}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>构造函数</RootNamespace>
-    <AssemblyName>构造函数</AssemblyName>
+    <RootNamespace>抽象类的使用</RootNamespace>
+    <AssemblyName>抽象类的使用</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,13 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Boss.cs" />
-    <Compile Include="Enemy.cs" />
+    <Compile Include="Bird.cs" />
+    <Compile Include="Crow.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StudentInfo.cs" />
-    <Compile Include="Type1Enemy.cs" />
-    <Compile Include="Type2Enemy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
