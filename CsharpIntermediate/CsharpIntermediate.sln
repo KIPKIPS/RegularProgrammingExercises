@@ -19,6 +19,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "接口的定义和实现", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{D54E818B-9B3A-4BC8-B0B3-679046C3D863}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "列表List的创建和使用", "列表List的创建和使用\列表List的创建和使用.csproj", "{10800FD6-FB09-49C2-B775-97D998DE19EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "泛型与泛型类", "泛型与泛型类\泛型与泛型类.csproj", "{135BA264-C2B7-4954-A662-970A0D49F280}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "实现集合类", "实现集合类\实现集合类.csproj", "{98B8FF4E-D349-41BE-9205-3F53407B8AB1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +63,18 @@ Global
 		{D54E818B-9B3A-4BC8-B0B3-679046C3D863}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D54E818B-9B3A-4BC8-B0B3-679046C3D863}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D54E818B-9B3A-4BC8-B0B3-679046C3D863}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10800FD6-FB09-49C2-B775-97D998DE19EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10800FD6-FB09-49C2-B775-97D998DE19EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10800FD6-FB09-49C2-B775-97D998DE19EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10800FD6-FB09-49C2-B775-97D998DE19EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{135BA264-C2B7-4954-A662-970A0D49F280}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{135BA264-C2B7-4954-A662-970A0D49F280}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{135BA264-C2B7-4954-A662-970A0D49F280}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{135BA264-C2B7-4954-A662-970A0D49F280}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98B8FF4E-D349-41BE-9205-3F53407B8AB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98B8FF4E-D349-41BE-9205-3F53407B8AB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98B8FF4E-D349-41BE-9205-3F53407B8AB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98B8FF4E-D349-41BE-9205-3F53407B8AB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
