@@ -10,6 +10,7 @@ namespace CsharpAdvanced
     {
         static void Main(string[] args)
         {
+            
         }
     }
 }
