@@ -24,11 +24,42 @@ namespace 委托
         static void Main(string[] args)
         {
             //给委托的变量赋值的时候,返回值和参数列表必须一致
-            MyDelegate de = Multiply;
-            Console.WriteLine(de(564.5, 54));
-            de = Divide;
-            Console.WriteLine(de(6546,54));
+            //MyDelegate de = Multiply;
+            //Console.WriteLine(de(564.5, 54));
+            //de = Divide;
+            //Console.WriteLine(de(6546,54));
+
+
+
+            //MyDelegate de=new MyDelegate(Multiply);
+            //Console.WriteLine(de(2,4));
+            //de = Divide;
+            //Console.WriteLine(de(4,2));
+
+            //委托类型当做参数传递,间接调用方法
+            Print mf;
+            mf = fun1;
+            MidFunction(mf);//MidFunction是间接方法,中介者
+            mf = fun2;
+            MidFunction(mf);
+
             Console.ReadLine();
+        }
+
+        public delegate void Print();
+
+        public static void MidFunction(Print p)//委托类型当做参数,此时p也可以看做是一个函数方法
+        {
+            p();
+        }
+
+        static void fun1()
+        {
+            Console.WriteLine("fun1");
+        }
+        static void fun2()
+        {
+            Console.WriteLine("fun2");
         }
     }
 }
