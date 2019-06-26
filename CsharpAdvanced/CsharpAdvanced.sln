@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "冒泡排序扩展", "冒�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "多播委托", "多播委托\多播委托.csproj", "{67FE0598-6E10-40C4-AC53-BAFA628D20F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "事件", "事件\事件.csproj", "{57554ACE-FDF6-4924-A7CB-72AC5D14ACCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "观察者模式", "观察者模式\观察者模式.csproj", "{57F43C59-3582-4BED-BD5E-80DBFAEFC3E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{67FE0598-6E10-40C4-AC53-BAFA628D20F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67FE0598-6E10-40C4-AC53-BAFA628D20F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67FE0598-6E10-40C4-AC53-BAFA628D20F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57554ACE-FDF6-4924-A7CB-72AC5D14ACCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57554ACE-FDF6-4924-A7CB-72AC5D14ACCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57554ACE-FDF6-4924-A7CB-72AC5D14ACCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57554ACE-FDF6-4924-A7CB-72AC5D14ACCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57F43C59-3582-4BED-BD5E-80DBFAEFC3E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57F43C59-3582-4BED-BD5E-80DBFAEFC3E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57F43C59-3582-4BED-BD5E-80DBFAEFC3E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57F43C59-3582-4BED-BD5E-80DBFAEFC3E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
