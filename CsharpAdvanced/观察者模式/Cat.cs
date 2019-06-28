@@ -21,6 +21,6 @@ namespace 观察者模式//被观察者类
             catCome();
         }
 
-        public Action catCome;
+        public event Action catCome;//声明一个事件,发布消息
     }
 }
