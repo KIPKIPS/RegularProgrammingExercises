@@ -9,7 +9,7 @@ namespace 泛型与泛型类
     class Program
     {
         //泛型方法
-        public static string Sum<T,T1,T2>(T a, T b)
+        public static string Sum<T,T1,T2>(T2 a, T1 b)
         {
             return a + "" + b;
         }
