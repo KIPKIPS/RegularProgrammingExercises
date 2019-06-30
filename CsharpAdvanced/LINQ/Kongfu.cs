@@ -14,7 +14,7 @@ namespace LINQ
 
         public override string ToString()
         {
-            return $"{nameof(KongfuId)}: {KongfuId}\t {nameof(KongfuName)}: {KongfuName}\t {nameof(Lethality)}: {Lethality}";
+            return $"{nameof(KongfuId)}: {KongfuId}  \t  {nameof(KongfuName)}: {KongfuName}  \t  {nameof(Lethality)}: {Lethality}  \t  ";
         }
     }
 }

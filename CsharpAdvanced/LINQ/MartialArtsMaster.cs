@@ -11,7 +11,7 @@
 
         public override string ToString()
         {
-            return $"{nameof(Id)}: {Id}\t {nameof(Name)}: {Name}\t {nameof(Age)}: {Age}\t {nameof(Menpai)}: {Menpai}\t {nameof(Kongfu)}: {Kongfu}\t {nameof(Level)}: {Level}\t";
+            return $"{nameof(Id)}: {Id}  \t  {nameof(Name)}: {Name}  \t  {nameof(Age)}: {Age}  \t  {nameof(Menpai)}: {Menpai}  \t  {nameof(Kongfu)}: {Kongfu}  \t  {nameof(Level)}: {Level}  \t  ";
         }
     }
 }

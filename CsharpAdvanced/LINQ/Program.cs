@@ -90,21 +90,44 @@ namespace LINQ
                           //select new { master = m, kongfu = k };
                           select m;
 
-            //扩展方法用法 单个字段排序
+            //扩展方法用法 单个字段排序 多List链接
             var more1res = masterList.SelectMany(m => kongfuList, (m, k) => new {master = m, kongfu = k})
                 .Where(x => x.master.Kongfu == x.kongfu.KongfuName&&x.master.Level>8);
-            //扩展方法用法 多个字段排序
-            var more2res = masterList.Where(m => m.Level > 5).OrderBy(m => m.Age);
+            //扩展方法用法 按照多个字段排序
+            var more2res = masterList.Where(m => m.Level > 5).OrderBy(m => m.Age).ThenBy(m=>m.Level);//orderBy之后按照thenBy排序
+            //OrderByDescending 按照降序排列
 
 
 
+            //5.join in 集合联合 on后面加查询条件 等于用equals
+            var res4 = from m in masterList
+                join k in kongfuList on m.Kongfu equals k.KongfuName
+                       where k.Lethality>90 orderby m.Level,m.Age,k.KongfuId
+                select new {master = m, kongfu = k};
 
+            //6.联合查询 分组查询 查询那个功夫修炼的人多
+            var res5= from k in kongfuList
+                join m in masterList on k.KongfuName equals m.Kongfu
+                into groups
+                orderby groups.Count()
+                select new { kongfu = k, count=groups.Count() };
 
+            //7,分组
+            var res6 = from m in masterList
+                group m by m.Kongfu
+                into g
+                select new {count = g.Count(),key=g.Key};//g.Key表示按照那个属性分的组
+
+            //8.量词操作符 判断是否符合条件
+            string a=masterList.Any(m => m.Menpai == "丐帮")?"有丐帮的人":"没有丐帮的人";//Any方法是只要数据集之中有一个满足条件即可
+            Console.WriteLine(a);
+            var b = masterList.All(m => m.Menpai == "丐帮") ? "全是丐帮的人" : "不全是丐帮的人";//All方法是数据集所有的查询条件符合
+            Console.WriteLine(b);
 
             //输出查询到的结果
-            foreach (var temp in more2res)
+            foreach (var temp in res6)
             {
-                Console.WriteLine(temp);
+                Console.WriteLine(temp.ToString()+"\t");
             }
 
             Console.ReadLine();
