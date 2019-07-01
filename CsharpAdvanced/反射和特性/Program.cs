@@ -17,7 +17,19 @@ namespace 反射和特性
             Type type =  my.GetType();
             Console.WriteLine("类名: " + type.Name);//获取类名
             Console.WriteLine("类的命名空间: "+type.Namespace);//获取类的命名空间
+
             Console.WriteLine("类的程序集: " + type.Assembly);//获取类的程序集
+            Console.WriteLine();
+            Assembly assem= my.GetType().Assembly;//获取类的程序集
+            Type[] types= assem.GetTypes();
+            foreach (var temp in types)
+            {
+                Console.WriteLine("类有:"+temp);
+            }
+            Console.WriteLine();
+            Console.WriteLine("类的程序集: "+ assem);
+            Console.WriteLine();
+
             Console.WriteLine();
             Console.WriteLine("类的字段有: ");
             FieldInfo[] array= type.GetFields();//获取类包含的字段
@@ -29,7 +41,7 @@ namespace 反射和特性
             Console.WriteLine();
 
             Console.WriteLine("类的属性有: ");
-            PropertyInfo[] array1 = type.GetProperties();
+            PropertyInfo[] array1 = type.GetProperties();//获取类的属性成员
             foreach (PropertyInfo temp in array1)
             {
                 Console.Write(temp.Name + " ");
@@ -38,10 +50,16 @@ namespace 反射和特性
             Console.WriteLine();
 
             Console.WriteLine("类的方法有: ");
-            MethodInfo[] array3= type.GetMethods();
+            MethodInfo[] array3= type.GetMethods();//获取类的方法成员
+            int count = 0;
             foreach (MethodInfo temp in array3)
             {
-                Console.Write(temp.Name + " ");
+                count++;
+                Console.Write(temp.Name + "            \t");
+                if (count % 5 == 0)
+                {
+                    Console.WriteLine();
+                }
             }
             Console.ReadLine();
         }

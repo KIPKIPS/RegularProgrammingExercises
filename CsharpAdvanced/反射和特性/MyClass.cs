@@ -14,7 +14,7 @@
         public string number2 { get; set; }
 
         //方法
-        public void Test1()
+        public void Test1(int id)
         {
 
         }

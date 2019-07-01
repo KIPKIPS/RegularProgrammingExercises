@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ", "LINQ\LINQ.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "反射和特性", "反射和特性\反射和特性.csproj", "{8581A9F9-255F-4229-844D-F3356256E7CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "特性", "特性\特性.csproj", "{D718C0B4-5DE9-4CFC-A326-1B129F8311CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{8581A9F9-255F-4229-844D-F3356256E7CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8581A9F9-255F-4229-844D-F3356256E7CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8581A9F9-255F-4229-844D-F3356256E7CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D718C0B4-5DE9-4CFC-A326-1B129F8311CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D718C0B4-5DE9-4CFC-A326-1B129F8311CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D718C0B4-5DE9-4CFC-A326-1B129F8311CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D718C0B4-5DE9-4CFC-A326-1B129F8311CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
