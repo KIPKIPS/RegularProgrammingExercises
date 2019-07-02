@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace 线性表 {
-    class SeqList<T>:IListDS<T>{
+    class SeqList<T> : IListDS<T> {
         /// <summary>
         /// 顺序表实现
         /// </summary>
@@ -16,12 +16,12 @@ namespace 线性表 {
         public int Length {
             get { return count; }
         }
-        public SeqList(int size){
-            data=new T[size];
+        public SeqList(int size) {
+            data = new T[size];
             count = 0;
         }
 
-        public SeqList():this(10) {//默认构造函数,顺序表的容量为10
+        public SeqList() : this(10) {//默认构造函数,顺序表的容量为10
 
         }
         public int GetLength() {
@@ -42,8 +42,7 @@ namespace 线性表 {
         /// 顺序表添加元素
         /// </summary>
         /// <param name="item"></param>
-        public void Add(T item)
-        {
+        public void Add(T item) {
             if (count == data.Length) {
                 Console.WriteLine("顺序表已经存满");
             }
@@ -57,8 +56,7 @@ namespace 线性表 {
         /// </summary>
         /// <param name="item"></param>
         /// <param name="index"></param>
-        public void Insert(T item, int index)
-        {
+        public void Insert(T item, int index) {
             if (index >= 0 && index <= count) {
                 for (int i = count - 1; i >= index; i--) {
                     data[i + 1] = data[i];
@@ -75,7 +73,7 @@ namespace 线性表 {
             T del = data[index];
             if (index >= 0 && index <= count - 1) {
                 for (int i = index; i < count - 1; i++) {
-                    data[i] = data[i+1];
+                    data[i] = data[i + 1];
                 }
                 count--;
             }
