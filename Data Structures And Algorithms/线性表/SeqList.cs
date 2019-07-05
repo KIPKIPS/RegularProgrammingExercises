@@ -85,7 +85,6 @@ namespace 线性表 {
 
         public T this[int index] {
             get { return GetEle(index); }
-
         }
 
         public T GetEle(int index) {
