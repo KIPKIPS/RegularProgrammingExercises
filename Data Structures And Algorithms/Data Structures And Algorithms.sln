@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.705
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "线性表", "线性表\线性表.csproj", "{AF9009E9-4D8F-4838-91A9-2F3DA97888DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "单链表", "单链表\单链表.csproj", "{3DE921EF-3B7A-4103-B407-B14C6F4E20CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "栈", "栈\栈.csproj", "{43975819-7C99-4286-80A2-49385B719DA7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{AF9009E9-4D8F-4838-91A9-2F3DA97888DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF9009E9-4D8F-4838-91A9-2F3DA97888DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF9009E9-4D8F-4838-91A9-2F3DA97888DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DE921EF-3B7A-4103-B407-B14C6F4E20CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DE921EF-3B7A-4103-B407-B14C6F4E20CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DE921EF-3B7A-4103-B407-B14C6F4E20CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DE921EF-3B7A-4103-B407-B14C6F4E20CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43975819-7C99-4286-80A2-49385B719DA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43975819-7C99-4286-80A2-49385B719DA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43975819-7C99-4286-80A2-49385B719DA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43975819-7C99-4286-80A2-49385B719DA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

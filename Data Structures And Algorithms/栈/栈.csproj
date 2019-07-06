@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3DE921EF-3B7A-4103-B407-B14C6F4E20CA}</ProjectGuid>
+    <ProjectGuid>{43975819-7C99-4286-80A2-49385B719DA7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>单链表</RootNamespace>
-    <AssemblyName>单链表</AssemblyName>
+    <RootNamespace>栈</RootNamespace>
+    <AssemblyName>栈</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IList.cs" />
-    <Compile Include="LinkList.cs" />
-    <Compile Include="Node.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
