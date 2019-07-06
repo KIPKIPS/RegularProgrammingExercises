@@ -1,4 +1,5 @@
-﻿namespace 栈 {
+﻿//自定义栈需要实现的接口
+namespace 栈 {
     public interface IStack<T> {
         int GetLength();//获取栈的长度
         int Count { get; }//获取栈的元素个数
