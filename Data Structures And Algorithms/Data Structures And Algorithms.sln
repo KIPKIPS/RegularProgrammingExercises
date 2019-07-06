@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "单链表", "单链表\单�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "顺序栈", "栈\顺序栈.csproj", "{43975819-7C99-4286-80A2-49385B719DA7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "链栈", "链栈\链栈.csproj", "{A38809F6-161D-4E64-8E9B-307FCED0A44D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{43975819-7C99-4286-80A2-49385B719DA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43975819-7C99-4286-80A2-49385B719DA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43975819-7C99-4286-80A2-49385B719DA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A38809F6-161D-4E64-8E9B-307FCED0A44D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A38809F6-161D-4E64-8E9B-307FCED0A44D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A38809F6-161D-4E64-8E9B-307FCED0A44D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A38809F6-161D-4E64-8E9B-307FCED0A44D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
