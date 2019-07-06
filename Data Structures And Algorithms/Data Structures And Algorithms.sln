@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "线性表", "线性表\线�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "单链表", "单链表\单链表.csproj", "{3DE921EF-3B7A-4103-B407-B14C6F4E20CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "栈", "栈\栈.csproj", "{43975819-7C99-4286-80A2-49385B719DA7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "顺序栈", "栈\顺序栈.csproj", "{43975819-7C99-4286-80A2-49385B719DA7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
