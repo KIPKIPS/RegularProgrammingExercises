@@ -17,6 +17,7 @@ namespace 栈 {
             Console.WriteLine("栈顶元素为: "+sta.Peek());
             Console.WriteLine(sta.Count);
             Console.ReadLine();
+
         }
     }
 }
