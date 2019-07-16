@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E38D5CFF-B5F0-4D55-A991-683633520317}</ProjectGuid>
+    <ProjectGuid>{277C76A8-137F-4915-96AB-4C70E0F2FF79}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>顺序队列</RootNamespace>
-    <AssemblyName>顺序队列</AssemblyName>
+    <RootNamespace>栈和队列的应用_判断回文字符串</RootNamespace>
+    <AssemblyName>栈和队列的应用_判断回文字符串</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,10 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IQueue.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SeqQueue.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

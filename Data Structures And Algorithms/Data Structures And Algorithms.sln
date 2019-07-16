@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "链栈", "链栈\链栈.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "顺序队列", "顺序队列\顺序队列.csproj", "{E38D5CFF-B5F0-4D55-A991-683633520317}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "栈和队列的应用_判断回文字符串", "栈和队列的应用_判断回文字符串\栈和队列的应用_判断回文字符串.csproj", "{277C76A8-137F-4915-96AB-4C70E0F2FF79}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{E38D5CFF-B5F0-4D55-A991-683633520317}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E38D5CFF-B5F0-4D55-A991-683633520317}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E38D5CFF-B5F0-4D55-A991-683633520317}.Release|Any CPU.Build.0 = Release|Any CPU
+		{277C76A8-137F-4915-96AB-4C70E0F2FF79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{277C76A8-137F-4915-96AB-4C70E0F2FF79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{277C76A8-137F-4915-96AB-4C70E0F2FF79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{277C76A8-137F-4915-96AB-4C70E0F2FF79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
