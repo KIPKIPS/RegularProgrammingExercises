@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "顺序队列", "顺序队�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "栈和队列的应用_判断回文字符串", "栈和队列的应用_判断回文字符串\栈和队列的应用_判断回文字符串.csproj", "{277C76A8-137F-4915-96AB-4C70E0F2FF79}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "直接插入排序", "直接插入排序\直接插入排序.csproj", "{11F6F5AF-9C1E-400F-9A52-B9C599B601DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "简单选择排序", "简单选择排序\简单选择排序.csproj", "{2075D96F-6E9B-4591-A001-EAAB1DAA7106}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{277C76A8-137F-4915-96AB-4C70E0F2FF79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{277C76A8-137F-4915-96AB-4C70E0F2FF79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{277C76A8-137F-4915-96AB-4C70E0F2FF79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11F6F5AF-9C1E-400F-9A52-B9C599B601DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11F6F5AF-9C1E-400F-9A52-B9C599B601DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11F6F5AF-9C1E-400F-9A52-B9C599B601DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11F6F5AF-9C1E-400F-9A52-B9C599B601DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2075D96F-6E9B-4591-A001-EAAB1DAA7106}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2075D96F-6E9B-4591-A001-EAAB1DAA7106}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2075D96F-6E9B-4591-A001-EAAB1DAA7106}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2075D96F-6E9B-4591-A001-EAAB1DAA7106}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
