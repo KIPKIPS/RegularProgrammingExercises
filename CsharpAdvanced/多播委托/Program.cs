@@ -18,8 +18,8 @@ namespace 多播委托
             Console.WriteLine("test2");
         }
         
-        static void Main(string[] args)
-        {
+        static void Main(string[] args) {
+            Func<int, int, int> p = delegate(int arg1, int arg2) { return arg1 + arg2; };
             //多播委托
             Action a = Test1;
             a += Test2;//这时既指向test1也指向test2
