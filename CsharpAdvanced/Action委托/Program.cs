@@ -33,6 +33,7 @@ namespace Action委托
             Func<int, int, int> c = intfun1;//前两个int为参数,后面的int为返回值类型
             Console.WriteLine(c(5,8));
 
+
             Console.ReadLine();
         }
     }

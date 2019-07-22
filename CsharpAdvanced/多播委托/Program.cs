@@ -17,13 +17,28 @@ namespace 多播委托
         {
             Console.WriteLine("test2");
         }
-        
+        static void Test3() {
+            Console.WriteLine("test3");
+        }
+        public static int Test<T1, T2>(Func<T1, T2, int> func, T1 a, T2 b) {
+            return func(a, b);
+        }
+        private static int Fun(int a, int b) {
+            return a + b;
+        }
+
         static void Main(string[] args) {
             Func<int, int, int> p = delegate(int arg1, int arg2) { return arg1 + arg2; };
             //多播委托
             Action a = Test1;
             a += Test2;//这时既指向test1也指向test2
+            a += Test3;
+            a();
+            Predicate<int> isEven = num=> num%2==0;
+            Console.WriteLine(isEven(5));
 
+            Console.WriteLine(Test<int, int>(Fun, 100, 200));
+            Console.ReadKey();
             //a -= Test2;
             //a -= Test1;
 
@@ -35,11 +50,11 @@ namespace 多播委托
             //}
 
 
-            Delegate[] delegates = a.GetInvocationList();//GetInvpcationList方法返回一个Delegate数组,通过遍历这个数组可以逐次调用委托a的全部方法
-            foreach (Delegate VARIABLE in delegates)
-            {
-                VARIABLE.DynamicInvoke();//调用委托方法
-            }
+            //Delegate[] delegates = a.GetInvocationList();//GetInvpcationList方法返回一个Delegate数组,通过遍历这个数组可以逐次调用委托a的全部方法
+            //foreach (Delegate VARIABLE in delegates)
+            //{
+            //    VARIABLE.DynamicInvoke();//调用委托方法
+            //}
 
             //匿名方法
             //Func<int, int, int> plus = delegate(int b, int c) { return c + b; };
