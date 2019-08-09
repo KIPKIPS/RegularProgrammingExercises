@@ -57,7 +57,7 @@ namespace 单链表 {
             if (head == null) {//如果头结点为空,这个新节点就是头结点
                 head = newNode;
             }
-            //头结点不为空,把这和新节点放到链表的尾部
+            //头结点不为空,把这个新节点放到链表的尾部
             else {
                 Node<T> temp = head;
                 while (true) {
