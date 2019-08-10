@@ -6,13 +6,15 @@ using System.Threading.Tasks;
 
 namespace SingleLinkedList {
     class Program {
-        class Node {
-            public int data;//数据
-            public Node next;//下一节点地址
-        }
         static void Main(string[] args) {
+            LinkedList l=new LinkedList();
+            l.AddFromTail(1);
+            l.AddFromTail(2);
+            l.AddFromTail(3);
+            l.AddFromTail(4);
+            l.Disp();
 
+            Console.ReadLine();
         }
-        static void
     }
 }
