@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleLinkedList", "SingleLinkedList\SingleLinkedList.csproj", "{CD7AF724-3B21-4AC1-A49F-01E3DCF877DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeqList", "SeqList\SeqList.csproj", "{7312A01E-72EC-46D9-8ACF-F68BE23CC0AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD7AF724-3B21-4AC1-A49F-01E3DCF877DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD7AF724-3B21-4AC1-A49F-01E3DCF877DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD7AF724-3B21-4AC1-A49F-01E3DCF877DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD7AF724-3B21-4AC1-A49F-01E3DCF877DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7312A01E-72EC-46D9-8ACF-F68BE23CC0AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7312A01E-72EC-46D9-8ACF-F68BE23CC0AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7312A01E-72EC-46D9-8ACF-F68BE23CC0AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7312A01E-72EC-46D9-8ACF-F68BE23CC0AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F46CD17-FD15-482D-AF2C-DAFAA2CA2C92}
+	EndGlobalSection
+EndGlobal
