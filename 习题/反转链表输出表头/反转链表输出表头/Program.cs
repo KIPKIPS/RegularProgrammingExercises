@@ -27,27 +27,26 @@ namespace 反转链表输出表头 {
             e.next = f;
 
 
-            Console.WriteLine(ReverseList(a).next.next.next.next.next.next.val);
+            Console.WriteLine(ReverseList(a).next.next.next.next.next.val);
             Console.ReadLine();
         }
         public static ListNode ReverseList(ListNode pHead) {
-            if (pHead!=null) {
-                ListNode head = pHead;
-                List<ListNode> a = new List<ListNode>();
-                while (head != null) {
-                    a.Add(head);
-                    head = head.next;
-                }
-
-                for (int i = a.Count-1; i >=1; i--) {
-                    a[i].next = a[i - 1];
-                }
-                return a[a.Count-1];
-            }
-            else {
+            if (pHead==null) {
                 return null;
             }
-            
+            ListNode head = pHead;
+            List<ListNode> a = new List<ListNode>();
+            while (head != null) {
+                a.Add(head);
+                head = head.next;
+            }
+
+            for (int i = a.Count - 1; i >= 1; i--) {
+                a[i].next = a[i - 1];
+            }
+            a[0].next = null;
+            return a[a.Count - 1];
+
         }
     }
 }
