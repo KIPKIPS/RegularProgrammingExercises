@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.705
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleLinkedList", "SingleLinkedList\SingleLinkedList.csproj", "{CD7AF724-3B21-4AC1-A49F-01E3DCF877DD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList", "SingleLinkedList\LinkedList.csproj", "{CD7AF724-3B21-4AC1-A49F-01E3DCF877DD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeqList", "SeqList\SeqList.csproj", "{7312A01E-72EC-46D9-8ACF-F68BE23CC0AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeqSatck", "SeqSatck\SeqSatck.csproj", "{ECA0E017-54EE-4A3B-AD93-FE7B87EA1B55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedStack", "LinkedStack\LinkedStack.csproj", "{2408C915-D66E-407C-9D8B-A9C47BDAF94F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{7312A01E-72EC-46D9-8ACF-F68BE23CC0AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7312A01E-72EC-46D9-8ACF-F68BE23CC0AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7312A01E-72EC-46D9-8ACF-F68BE23CC0AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECA0E017-54EE-4A3B-AD93-FE7B87EA1B55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECA0E017-54EE-4A3B-AD93-FE7B87EA1B55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECA0E017-54EE-4A3B-AD93-FE7B87EA1B55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECA0E017-54EE-4A3B-AD93-FE7B87EA1B55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2408C915-D66E-407C-9D8B-A9C47BDAF94F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2408C915-D66E-407C-9D8B-A9C47BDAF94F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2408C915-D66E-407C-9D8B-A9C47BDAF94F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2408C915-D66E-407C-9D8B-A9C47BDAF94F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
