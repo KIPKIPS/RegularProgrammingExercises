@@ -8,8 +8,14 @@ using System.Threading.Tasks;
 namespace 二进制 {
     class Program {
         static void Main(string[] args) {
-
-            Console.WriteLine(NumberOf1(0));
+            for (int j = 0; j < 100; j++) {
+                for (int i = Fun(j).Count - 1; i >= 0; i--) {
+                    Console.Write(Fun(j)[i]);
+                }
+                Console.WriteLine();
+            }
+            
+            
             Console.ReadLine();
 
         }
