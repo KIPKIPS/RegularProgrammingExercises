@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "66机器人的运动范围", "66机器人的运动范围\66机器人的运动范围.csproj", "{911918AC-37BC-4C57-BBF3-522765A2B53B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{911918AC-37BC-4C57-BBF3-522765A2B53B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{911918AC-37BC-4C57-BBF3-522765A2B53B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{911918AC-37BC-4C57-BBF3-522765A2B53B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{911918AC-37BC-4C57-BBF3-522765A2B53B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5AF4B1E-3396-408E-837F-AB1B5CDF5C97}
+	EndGlobalSection
+EndGlobal
