@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NO.18_二叉树的镜像", "NO.18_二叉树的镜像\NO.18_二叉树的镜像.csproj", "{44F80D8F-F73C-4B19-91B2-B92F4F6C43C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44F80D8F-F73C-4B19-91B2-B92F4F6C43C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44F80D8F-F73C-4B19-91B2-B92F4F6C43C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44F80D8F-F73C-4B19-91B2-B92F4F6C43C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44F80D8F-F73C-4B19-91B2-B92F4F6C43C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1CB1879-1082-4026-80A2-27EAE0D6891F}
+	EndGlobalSection
+EndGlobal

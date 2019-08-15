@@ -18,16 +18,19 @@ namespace 判断树的子结构 {
         }
         public bool HasSubtree(TreeNode pRoot1, TreeNode pRoot2) {
             // write code here
-
-            if (pRoot1.val!=pRoot2.val) {
-                HasSubtree(pRoot1.left, pRoot2);
-                HasSubtree(pRoot1.right, pRoot2);
+            if(pRoot1 == null || pRoot2 == null){
+                return false;
             }
-            else {
-                HasSubtree(pRoot2.left, pRoot1.left);
-                HasSubtree(pRoot2.right, pRoot1.right);
+            return IsSub(pRoot1, pRoot2) || HasSubtree(pRoot1.left, pRoot2) || HasSubtree(pRoot1.right, pRoot2);
+        }
+        public bool IsSub(TreeNode p1, TreeNode p2) {
+            if (p2 == null) {
+                return true;
             }
-
+            if (p1 == null) {
+                return false;
+            }
+            return (p1.val == p2.val) && IsSub(p1.left, p2.left) && IsSub(p1.right, p2.right);
         }
 
     }

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "栈的压入弹出序列", "栈的压入弹出序列\栈的压入弹出序列.csproj", "{1E5A4DF8-D352-473D-8D25-C53E2868D778}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E5A4DF8-D352-473D-8D25-C53E2868D778}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E5A4DF8-D352-473D-8D25-C53E2868D778}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E5A4DF8-D352-473D-8D25-C53E2868D778}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E5A4DF8-D352-473D-8D25-C53E2868D778}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B9522D2-14AF-4E42-A2D4-6C099DFC73F4}
+	EndGlobalSection
+EndGlobal
