@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "数字在排序数组中出现的次数", "数字在排序数组中出现的次数\数字在排序数组中出现的次数.csproj", "{BA846DE1-BBFE-4F68-8EE4-2373B42676B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA846DE1-BBFE-4F68-8EE4-2373B42676B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA846DE1-BBFE-4F68-8EE4-2373B42676B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA846DE1-BBFE-4F68-8EE4-2373B42676B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA846DE1-BBFE-4F68-8EE4-2373B42676B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90AD142F-3654-4753-811D-8523A5AE5875}
+	EndGlobalSection
+EndGlobal

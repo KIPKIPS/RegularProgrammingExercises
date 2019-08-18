@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "整数中1出现的次数(从1到n整数中1出现的次数)", "整数中1出现的次数(从1到n整数中1出现的次数)\整数中1出现的次数(从1到n整数中1出现的次数).csproj", "{73F4F066-48B4-49A3-BD40-5F037AD14DF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73F4F066-48B4-49A3-BD40-5F037AD14DF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73F4F066-48B4-49A3-BD40-5F037AD14DF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73F4F066-48B4-49A3-BD40-5F037AD14DF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73F4F066-48B4-49A3-BD40-5F037AD14DF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E702D752-9B14-48FB-A213-9EE5ED9E808A}
+	EndGlobalSection
+EndGlobal

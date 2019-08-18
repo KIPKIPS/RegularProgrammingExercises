@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "第一个只出现一次的字符", "第一个只出现一次的字符\第一个只出现一次的字符.csproj", "{673EADE0-C903-4670-B1CB-34E779B3A89C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{673EADE0-C903-4670-B1CB-34E779B3A89C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{673EADE0-C903-4670-B1CB-34E779B3A89C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{673EADE0-C903-4670-B1CB-34E779B3A89C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{673EADE0-C903-4670-B1CB-34E779B3A89C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64A0E72B-B0A6-44DD-9590-85F69F0799C9}
+	EndGlobalSection
+EndGlobal
