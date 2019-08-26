@@ -33,7 +33,6 @@ namespace NO._36_两个链表的第一个公共节点 {
             if (pHead1==null||pHead2==null) {
                 return null;
             }
-
             ListNode temp1 = pHead1;
             while (temp1.next!=null) {
                 ListNode temp2 = pHead2;
