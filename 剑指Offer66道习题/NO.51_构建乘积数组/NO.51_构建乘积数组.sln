@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NO.51_构建乘积数组", "NO.51_构建乘积数组\NO.51_构建乘积数组.csproj", "{089F6875-920B-4A62-9E3F-096D08FC281C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{089F6875-920B-4A62-9E3F-096D08FC281C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{089F6875-920B-4A62-9E3F-096D08FC281C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{089F6875-920B-4A62-9E3F-096D08FC281C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{089F6875-920B-4A62-9E3F-096D08FC281C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DACD1232-F15E-4BAD-85DB-10854F18A948}
+	EndGlobalSection
+EndGlobal

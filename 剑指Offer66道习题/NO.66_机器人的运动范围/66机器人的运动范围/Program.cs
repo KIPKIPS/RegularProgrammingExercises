@@ -11,6 +11,40 @@ namespace _66机器人的运动范围 {
     class Program {
         static void Main(string[] args) {
         }
+        public int movingCount(int threshold, int rows, int cols) {
+            // write code here
+            if (threshold < 0 || rows <= 0 || cols <= 0)
+                return 0;
+            bool[,] visited = new bool[rows, cols];
+            int[,] sums = new int[rows, cols];
+            for (int i = 0; i < rows; i++)
+            for (int j = 0; j < cols; j++)
+                sums[i, j] = digitSum(i) + digitSum(j);
+            return core(threshold, rows, cols, 0, 0, visited, sums);
+        }
+
+        private int core(int thres, int rows, int cols, int i, int j, bool[,] visited, int[,] sums) {
+            if (i >= 0 && i < rows && j >= 0 && j < cols && !visited[i, j] && sums[i, j] <= thres) {
+                visited[i, j] = true;
+                int ret = 0;
+                int down = core(thres, rows, cols, i + 1, j, visited, sums);
+                int up = core(thres, rows, cols, i - 1, j, visited, sums);
+                int left = core(thres, rows, cols, i, j - 1, visited, sums);
+                int right = core(thres, rows, cols, i, j + 1, visited, sums);
+                return 1 + left + down + right + up;
+            }
+            else
+                return 0;
+        }
+
+        private int digitSum(int num) {
+            int sum = 0;
+            for (; num > 0;) {
+                sum += num % 10;
+                num = num / 10;
+            }
+            return sum;
+        }
 
     }
 }

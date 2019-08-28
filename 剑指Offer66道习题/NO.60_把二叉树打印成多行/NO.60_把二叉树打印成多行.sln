@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NO.60_把二叉树打印成多行", "NO.60_把二叉树打印成多行\NO.60_把二叉树打印成多行.csproj", "{DA7E76D5-724B-4DFD-BB27-756E407D067C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA7E76D5-724B-4DFD-BB27-756E407D067C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA7E76D5-724B-4DFD-BB27-756E407D067C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA7E76D5-724B-4DFD-BB27-756E407D067C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA7E76D5-724B-4DFD-BB27-756E407D067C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B5C5BF4-69BA-4B50-ACA4-18FADAAB9495}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "按之字形顺序打印二叉树", "按之字形顺序打印二叉树\按之字形顺序打印二叉树.csproj", "{BD9C8B03-E2ED-4B52-98FF-86D7C6E59A77}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD9C8B03-E2ED-4B52-98FF-86D7C6E59A77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD9C8B03-E2ED-4B52-98FF-86D7C6E59A77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD9C8B03-E2ED-4B52-98FF-86D7C6E59A77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD9C8B03-E2ED-4B52-98FF-86D7C6E59A77}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89BF5F2E-7BEE-4383-9713-3C8FD487B4C2}
+	EndGlobalSection
+EndGlobal

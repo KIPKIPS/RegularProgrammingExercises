@@ -65,14 +65,14 @@ namespace 正则表达式
             //Console.WriteLine(s);
 
             //简单的侮辱性词汇过滤
-            //string target = "我草你妈,你个傻逼";
-            //string res = "草";
-            //string res1 = "妈";
-            //string res2 = "傻逼";
-            //string s = Regex.Replace(target, res, "*");//把匹配res的字符都替换成*
-            //string s1 = Regex.Replace(s, res1, "*");//把匹配res1的字符都替换成*
-            //string s2 = Regex.Replace(s1, res2, "**");//把匹配res2的字符都替换成*
-            //Console.WriteLine(s2);
+            string target = "我草你妈,你个傻逼";
+            string res = "草";
+            string res1 = "妈";
+            string res2 = "傻逼";
+            string s = Regex.Replace(target, res, "*");//把匹配res的字符都替换成*
+            string s1 = Regex.Replace(s, res1, "*");//把匹配res1的字符都替换成*
+            string s2 = Regex.Replace(s1, res2, "**");//把匹配res2的字符都替换成*
+            Console.WriteLine(s2);
 
             //匹配数字或者大写字母
             //string s = "ks##af%@#n#%^ja#$65jksj6534654#IHIUHJBNB阿克苏DNF扩散吃撒";
