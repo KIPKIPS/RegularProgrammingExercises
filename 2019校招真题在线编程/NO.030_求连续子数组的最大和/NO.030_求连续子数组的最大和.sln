@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NO.030_求连续子数组的最大和", "NO.030_求连续子数组的最大和\NO.030_求连续子数组的最大和.csproj", "{BC621FE0-CE79-4412-A3F2-641107C20C14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC621FE0-CE79-4412-A3F2-641107C20C14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC621FE0-CE79-4412-A3F2-641107C20C14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC621FE0-CE79-4412-A3F2-641107C20C14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC621FE0-CE79-4412-A3F2-641107C20C14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B942D13B-68D6-4E66-B41B-882BB31751D7}
+	EndGlobalSection
+EndGlobal

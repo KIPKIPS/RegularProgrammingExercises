@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NO.052_字符串旋转", "NO.052_字符串旋转\NO.052_字符串旋转.csproj", "{CFAF8859-DF2E-4A68-A711-A34E1462A773}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFAF8859-DF2E-4A68-A711-A34E1462A773}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFAF8859-DF2E-4A68-A711-A34E1462A773}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFAF8859-DF2E-4A68-A711-A34E1462A773}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFAF8859-DF2E-4A68-A711-A34E1462A773}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7BEE4857-92EB-4092-B25F-6DC253044395}
+	EndGlobalSection
+EndGlobal

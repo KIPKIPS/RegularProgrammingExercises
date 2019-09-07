@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NO.034_a除以b的小数形式", "NO.034_a除以b的小数形式\NO.034_a除以b的小数形式.csproj", "{DB2D5083-F23D-4EC0-B829-71DF4CF42BCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB2D5083-F23D-4EC0-B829-71DF4CF42BCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB2D5083-F23D-4EC0-B829-71DF4CF42BCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB2D5083-F23D-4EC0-B829-71DF4CF42BCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB2D5083-F23D-4EC0-B829-71DF4CF42BCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD6F877A-27F7-449A-8FF8-D9D226AB9C63}
+	EndGlobalSection
+EndGlobal

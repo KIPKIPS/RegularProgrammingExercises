@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NO.020_字符串归一化", "NO.020_字符串归一化\NO.020_字符串归一化.csproj", "{1D94C86D-2957-4B57-A3AB-A86C7C7961DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D94C86D-2957-4B57-A3AB-A86C7C7961DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D94C86D-2957-4B57-A3AB-A86C7C7961DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D94C86D-2957-4B57-A3AB-A86C7C7961DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D94C86D-2957-4B57-A3AB-A86C7C7961DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {986CDEBB-39EB-47B0-B1FD-2F0CFE55DC08}
+	EndGlobalSection
+EndGlobal

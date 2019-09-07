@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NO.045_方格走法", "NO.045_方格走法\NO.045_方格走法.csproj", "{6A758082-C8DD-47FA-95A3-D7323906017D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A758082-C8DD-47FA-95A3-D7323906017D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A758082-C8DD-47FA-95A3-D7323906017D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A758082-C8DD-47FA-95A3-D7323906017D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A758082-C8DD-47FA-95A3-D7323906017D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8308B0DC-E9F2-4423-85A6-94110973AA91}
+	EndGlobalSection
+EndGlobal

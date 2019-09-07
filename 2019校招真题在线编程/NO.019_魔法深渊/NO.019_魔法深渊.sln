@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NO.019_魔法深渊", "NO.019_魔法深渊\NO.019_魔法深渊.csproj", "{4E3F00A7-FE4E-4A4C-85E5-C4615F1A8ED3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E3F00A7-FE4E-4A4C-85E5-C4615F1A8ED3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E3F00A7-FE4E-4A4C-85E5-C4615F1A8ED3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E3F00A7-FE4E-4A4C-85E5-C4615F1A8ED3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E3F00A7-FE4E-4A4C-85E5-C4615F1A8ED3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8FD9FD4-E0EA-4798-AE86-CBAA429DF897}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NO.028_字符串压缩", "NO.028_字符串压缩\NO.028_字符串压缩.csproj", "{88E146D2-B2AC-4CE8-8551-D061714B2C9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88E146D2-B2AC-4CE8-8551-D061714B2C9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88E146D2-B2AC-4CE8-8551-D061714B2C9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88E146D2-B2AC-4CE8-8551-D061714B2C9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88E146D2-B2AC-4CE8-8551-D061714B2C9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B76D804-76C7-48DA-A09F-3805D7F4A028}
+	EndGlobalSection
+EndGlobal
