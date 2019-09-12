@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NO.071_一组带数字编号的球,其中有两个编号只出现了一次,把它们找出来", "NO.071_一组带数字编号的球,其中有两个编号只出现了一次,把它们找出来\NO.071_一组带数字编号的球,其中有两个编号只出现了一次,把它们找出来.csproj", "{5912D9E9-2193-4733-97C1-046F50233050}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5912D9E9-2193-4733-97C1-046F50233050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5912D9E9-2193-4733-97C1-046F50233050}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5912D9E9-2193-4733-97C1-046F50233050}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5912D9E9-2193-4733-97C1-046F50233050}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2414B88D-3032-4223-87C8-FEA728A4C998}
+	EndGlobalSection
+EndGlobal
