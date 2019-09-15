@@ -26,7 +26,6 @@ namespace Action委托
         {
             Action<string> a = strfun;
             a("ss");
-
             Func<int> b = intfun;
             Console.WriteLine(b());
 
