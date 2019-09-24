@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NO.088_委托", "NO.088_委托\NO.088_委托.csproj", "{8EE37EEC-34EF-42E3-8C50-36E57F0E536E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LOL技能池实现", "LOL技能池实现\LOL技能池实现.csproj", "{F6B3FEF5-B550-414C-AEE9-5E52542AC5A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "委托进阶", "委托进阶\委托进阶.csproj", "{49DB8804-1350-4F27-8768-27033E47022E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "匿名方法", "匿名方法\匿名方法.csproj", "{039E1FF8-1A67-44C7-927B-313D89B706BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "模拟数据下载", "模拟数据下载\模拟数据下载.csproj", "{04BADF12-F1C9-4907-8CE2-CE043E3FB883}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EE37EEC-34EF-42E3-8C50-36E57F0E536E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EE37EEC-34EF-42E3-8C50-36E57F0E536E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EE37EEC-34EF-42E3-8C50-36E57F0E536E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EE37EEC-34EF-42E3-8C50-36E57F0E536E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6B3FEF5-B550-414C-AEE9-5E52542AC5A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6B3FEF5-B550-414C-AEE9-5E52542AC5A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6B3FEF5-B550-414C-AEE9-5E52542AC5A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6B3FEF5-B550-414C-AEE9-5E52542AC5A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49DB8804-1350-4F27-8768-27033E47022E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49DB8804-1350-4F27-8768-27033E47022E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49DB8804-1350-4F27-8768-27033E47022E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49DB8804-1350-4F27-8768-27033E47022E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{039E1FF8-1A67-44C7-927B-313D89B706BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{039E1FF8-1A67-44C7-927B-313D89B706BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{039E1FF8-1A67-44C7-927B-313D89B706BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{039E1FF8-1A67-44C7-927B-313D89B706BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04BADF12-F1C9-4907-8CE2-CE043E3FB883}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04BADF12-F1C9-4907-8CE2-CE043E3FB883}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04BADF12-F1C9-4907-8CE2-CE043E3FB883}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04BADF12-F1C9-4907-8CE2-CE043E3FB883}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C4FA36F-B915-43B6-8C14-99A0140C8C75}
+	EndGlobalSection
+EndGlobal

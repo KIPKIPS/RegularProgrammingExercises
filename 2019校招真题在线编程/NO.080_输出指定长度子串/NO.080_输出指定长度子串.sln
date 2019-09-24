@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NO.080_输出指定长度子串", "NO.080_输出指定长度子串\NO.080_输出指定长度子串.csproj", "{BCEE9FB2-673E-457C-84F5-7F9AF332D497}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCEE9FB2-673E-457C-84F5-7F9AF332D497}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCEE9FB2-673E-457C-84F5-7F9AF332D497}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCEE9FB2-673E-457C-84F5-7F9AF332D497}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCEE9FB2-673E-457C-84F5-7F9AF332D497}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {40FA14B8-ABAA-426B-815A-88B0501FADF2}
+	EndGlobalSection
+EndGlobal

@@ -4,9 +4,8 @@ namespace 观察者模式
 {
     public class Mouse//观察者类
     {
-        private string name { get; set; }
-        private string color { get; set; }
-
+        private string name { get; }
+        private string color { get; }
         public Mouse(string name, string color,Cat cat)
         {
             this.name = name;

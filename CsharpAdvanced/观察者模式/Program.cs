@@ -22,7 +22,7 @@ namespace 观察者模式
             cat.catCome += mouse3.Run;
 
             cat.CatComing();
-            //cat.catCome();//事件只能在类的内部调用,不能再累的外部触发
+            //cat.catCome();//事件只能在类的内部调用,不能再类的外部触发
             Console.ReadLine();
         }
     }
