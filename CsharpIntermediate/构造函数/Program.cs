@@ -28,7 +28,7 @@ namespace 构造函数
 
             Enemy enemy=new Boss();//用父类声明的对象,使用了子类的构造方法,但是子类不可以使用父类的构造方法
             Boss boss1 = (Boss) enemy;//使用子类构造方法的父类声明,本质上还是一个子类的对象,我们可以使用子类强制类型转换将这个对象转换成子类类型的
-
+            boss1.Move();
             Enemy enemy1=new Enemy();//父类类型的不能强制转换成子类类型的,因为用父类构造器生成的对象本质上是父类
             //Boss boss2 = (Boss) enemy1; //无法转换,会报错
 

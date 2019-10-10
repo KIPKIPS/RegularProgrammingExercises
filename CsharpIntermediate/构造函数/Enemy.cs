@@ -17,7 +17,7 @@ namespace 构造函数
             Console.WriteLine("父类的的公有AI方法");
         }
 
-        public void Move()
+        public  void Move()
         {
             Console.WriteLine("父类的Move方法");
         }
