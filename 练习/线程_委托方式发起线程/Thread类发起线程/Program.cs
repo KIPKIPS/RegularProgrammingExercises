@@ -46,7 +46,7 @@ namespace Thread类发起线程 {
 
             //构造自定义Thread类
             MyThread mythread=new MyThread("RECNEPS-KIPS.jpeg", "https://ww.download.com");
-            Thread t=new Thread(mythread.DownloadFile());
+            Thread t=new Thread(mythread.DownloadFile);
             t.Start();
             Console.ReadLine();
         }
