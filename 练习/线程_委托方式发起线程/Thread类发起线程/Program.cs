@@ -48,6 +48,12 @@ namespace Thread类发起线程 {
             MyThread mythread=new MyThread("RECNEPS-KIPS.jpeg", "https://ww.download.com");
             Thread t=new Thread(mythread.DownloadFile);
             t.Start();
+
+            Thread t2 = new Thread(DownloadFile);
+            //通过更改线程的IsBackground属性来修改它是否是前台线程,前台线程结束后,应用程序才会被结束,后台线程则会被终止
+            t2.IsBackground = true;
+            t2.Start("download.png");//默认创建的线程为前台线程
+            //Thread类中通过修改priority属性来设置线程的优先级,Highest,AboveNormal,BelowNormal,Lowest
             Console.ReadLine();
         }
     }
