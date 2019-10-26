@@ -25,7 +25,6 @@ namespace Socket_TCP_聊天室服务器端 {
             while (true) {
                 //接收数据之前要判断Socket连接是否断开
                 if (clientSocket.Poll(10, SelectMode.SelectRead)) {
-                    
                     break;//跳出循环,终止线程的执行
                 }
                 int length=clientSocket.Receive(data);
