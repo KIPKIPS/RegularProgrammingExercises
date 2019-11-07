@@ -4,11 +4,10 @@ namespace 抽象类实现状态机 {
         public ClosingState(Lift lift) : base(lift) {
         }
         public override void Open() {
-            // 执行开门动作
-            // 1、变化为开门状态
-            this.mLift.SetState(mLift.GetClosingState());
-            // 2、开门
-            this.mLift.Open();
+            //先将电梯设置为打开状态
+            mLift.SetState(mLift.GetClosingState());
+            //执行打开操作
+            mLift.Open();
         }
         public override void Close() {
             Console.WriteLine("执行关门动作");
@@ -16,16 +15,16 @@ namespace 抽象类实现状态机 {
         public override void Run() {
             // 运行动作
             // 1、运行状态
-            this.mLift.SetState(mLift.GetRunningState());
+            mLift.SetState(mLift.GetRunningState());
             // 2、运行动作
-            this.mLift.Run();
+            mLift.Run();
         }
         public override void Stop() {
             // 停止动作
             // 1、转化为停止状态
-            this.mLift.SetState(mLift.GetStoppingState());
+            mLift.SetState(mLift.GetStoppingState());
             // 2、停止
-            this.mLift.Stop();
+            mLift.Stop();
         }
     }
 }

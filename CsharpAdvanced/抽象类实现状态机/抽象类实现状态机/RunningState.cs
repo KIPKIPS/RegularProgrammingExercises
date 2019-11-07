@@ -10,14 +10,13 @@ namespace 抽象类实现状态机 {
             // do noting
         }
         public override void Run() {
-            // 运行动作
+            //运行动作
             Console.WriteLine("电梯上下运行中...");
         }
         public override void Stop() {
-            // 停止动作
-            // 1、转化为停止状态
+            //先将电梯设置为停止态
             mLift.SetState(mLift.GetStoppingState());
-            // 2、停止动作
+            //执行电梯停止操作
             mLift.Stop();
         }
     }

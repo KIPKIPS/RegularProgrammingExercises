@@ -15,12 +15,12 @@ namespace 抽象类实现状态机 {
         }
         public override void Run() {
             // do noting
-            // 开门状态，不能执行运行动作
+            // 开门状态 不能执行运行动作
         }
 
         public override void Stop() {
             // do noting
-            // 开门状态下，不执行停止动作
+            // 开门状态下 不执行停止动作
         }
     }
 }
