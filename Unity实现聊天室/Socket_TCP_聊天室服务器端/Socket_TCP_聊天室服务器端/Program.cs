@@ -13,8 +13,8 @@ namespace Socket_TCP_聊天室服务器端 {
             //创建Socket
             Socket tcpServer = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             //建立连接
-            IPAddress address = IPAddress.Parse("10.17.129.238");
-            EndPoint point = new IPEndPoint(address, 7788);
+            IPAddress address = IPAddress.Parse("10.18.59.166");
+            EndPoint point = new IPEndPoint(address, 8000);
             tcpServer.Bind(point);
             //侦听连接消息
             tcpServer.Listen(100);
