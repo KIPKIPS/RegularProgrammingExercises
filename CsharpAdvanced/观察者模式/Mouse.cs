@@ -9,7 +9,7 @@ namespace 观察者模式
         public Mouse(string name, string color,Cat cat)
         {
             this.name = name;
-            this.color = color;
+            this.color = color;                                                                                                                                                                    
             cat.catCome+=this.Run;//订阅消息
         }
 

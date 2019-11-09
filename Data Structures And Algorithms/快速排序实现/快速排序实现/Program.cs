@@ -32,15 +32,16 @@ namespace 快速排序实现 {
 
             //当 （左侧动态下标 == 右侧动态下标） 时跳出循环
             while (leftIndex < rightIndex) {
-                while (leftIndex < rightIndex && array[leftIndex] <= keyValue) { //左侧动态下标逐渐增加，直至找到大于keyValue的下标
-
+                //左侧动态下标逐渐增加，直至找到大于keyValue的下标
+                while (leftIndex < rightIndex && array[leftIndex] <= keyValue) { 
                     leftIndex++;
                 }
-                while (leftIndex < rightIndex && array[rightIndex] > keyValue) { //右侧动态下标逐渐减小，直至找到小于或等于keyValue的下标
-
+                //右侧动态下标逐渐减小，直至找到小于或等于keyValue的下标
+                while (leftIndex < rightIndex && array[rightIndex] > keyValue) {
                     rightIndex--;
                 }
-                if (leftIndex < rightIndex) {//如果leftIndex < rightIndex，则交换左右动态下标所指定的值；当leftIndex==rightIndex时，跳出整个循环
+                //如果leftIndex < rightIndex，则交换左右动态下标所指定的值；当leftIndex==rightIndex时，跳出整个循环
+                if (leftIndex < rightIndex) {
 
                     temp = array[leftIndex];
                     array[leftIndex] = array[rightIndex];
@@ -50,13 +51,15 @@ namespace 快速排序实现 {
 
             //当左右两个动态下标相等时（即：左右下标指向同一个位置），此时便可以确定keyValue的准确位置
             temp = keyValue;
-            if (temp < array[rightIndex])   //当keyValue < 左右下标同时指向的值，将keyValue与rightIndex - 1指向的值交换，并返回rightIndex - 1
+            //当keyValue < 左右下标同时指向的值，将keyValue与rightIndex - 1指向的值交换，并返回rightIndex - 1
+            if (temp < array[rightIndex])   
             {
                 array[low] = array[rightIndex - 1];
                 array[rightIndex - 1] = temp;
                 return rightIndex - 1;
             }
-            else { //当keyValue >= 左右下标同时指向的值，将keyValue与rightIndex指向的值交换，并返回rightIndex
+            //当keyValue >= 左右下标同时指向的值，将keyValue与rightIndex指向的值交换，并返回rightIndex
+            else { 
                 array[low] = array[rightIndex];
                 array[rightIndex] = temp;
                 return rightIndex;

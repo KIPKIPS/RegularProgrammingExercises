@@ -17,9 +17,9 @@ namespace 观察者模式
             //cat.CatComing(mouse1,mouse1);//新的观察者申请后,被观察者的类以及参数都要修改,很麻烦也很容易出现问题,通过消息机制,被观察者发出消息,观察者接收消息做出改变
 
             //将mouse的run方法注册到catcome里面
-            cat.catCome += mouse1.Run;
-            cat.catCome += mouse2.Run;
-            cat.catCome += mouse3.Run;
+            //cat.catCome += mouse1.Run;
+            //cat.catCome += mouse2.Run;
+            //cat.catCome += mouse3.Run;
 
             cat.CatComing();
             //cat.catCome();//事件只能在类的内部调用,不能再类的外部触发
