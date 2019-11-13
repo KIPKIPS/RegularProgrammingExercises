@@ -3,8 +3,8 @@
 namespace 观察者模式//被观察者类
 {
     public class Cat {
-        private string name { get; set; }
-        private string color { get; set; }
+        private string name { get; }
+        private string color { get;  }
 
         public Cat(string name, string color) {
             this.name = name;
