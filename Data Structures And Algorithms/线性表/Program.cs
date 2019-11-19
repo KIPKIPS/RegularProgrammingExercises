@@ -46,7 +46,6 @@ namespace 线性表
             {
                 Console.Write(seq[i]+" ");
             }
-
             Console.ReadLine();
         }
     }

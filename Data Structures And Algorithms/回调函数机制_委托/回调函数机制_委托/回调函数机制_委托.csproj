@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4EC2108C-DB29-475B-B5AF-0007C405DEE3}</ProjectGuid>
+    <ProjectGuid>{D742D00A-4530-4526-8395-39036D2EA9D2}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>简单表达式计算</RootNamespace>
-    <AssemblyName>简单表达式计算</AssemblyName>
+    <RootNamespace>回调函数机制_委托</RootNamespace>
+    <AssemblyName>回调函数机制_委托</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

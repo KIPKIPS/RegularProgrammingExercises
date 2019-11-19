@@ -83,10 +83,11 @@ namespace 线性表 {
             return del;
         }
 
+        //索引器
         public T this[int index] {
             get { return GetEle(index); }
         }
-
+        //获取索引位置元素
         public T GetEle(int index) {
             if (index >= 0 && index <= count - 1) {
                 return data[index];
@@ -96,7 +97,7 @@ namespace 线性表 {
                 return default(T);
             }
         }
-
+        //获取元素值相等的索引
         public int Locate(T value) {
             for (int i = 0; i < count; i++) {
                 if (data[i].Equals(value)) {
