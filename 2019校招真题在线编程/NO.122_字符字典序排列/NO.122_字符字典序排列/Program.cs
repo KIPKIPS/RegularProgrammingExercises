@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace NO._122_字符字典序排列 {
-    class Program<T> {
+    class Program {
         static void Main(string[] args) {
             string[] array = new[] {"a", "bbb", "zzz", "abc", "bbb", "c","ab"};
             Sort<string>(array);

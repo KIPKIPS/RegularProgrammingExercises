@@ -18,7 +18,6 @@ namespace 观察者模式
             //teacher.teacherCome += stu2.StopTalking;
 
             teacher.TeacherComing();//被观察者状态发生改变
-            teacher.teacherCome();
             Console.ReadLine();
         }
     }
