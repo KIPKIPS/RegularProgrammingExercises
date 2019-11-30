@@ -2,6 +2,7 @@
 namespace 抽象类实现状态机 {
     public class OpeningState : LiftState {
         public OpeningState(Lift lift):base(lift) {
+
         }
         public override void Open() {
             // 执行开门动作

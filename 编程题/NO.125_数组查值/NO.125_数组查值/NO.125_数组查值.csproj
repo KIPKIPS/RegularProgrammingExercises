@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6D314978-E998-4FB8-9C7C-2271B47411E0}</ProjectGuid>
+    <ProjectGuid>{3B015992-4D48-4CDF-B2C5-62582C8CDB79}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>NO._221_字符串排序</RootNamespace>
-    <AssemblyName>NO.221_字符串排序</AssemblyName>
+    <RootNamespace>NO._125_数组查值</RootNamespace>
+    <AssemblyName>NO.125_数组查值</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

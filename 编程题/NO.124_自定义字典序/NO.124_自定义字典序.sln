@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.852
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NO.124_自定义字典序", "NO.124_自定义字典序\NO.124_自定义字典序.csproj", "{C076883E-054A-4D6F-8F0E-F5698FE8FB69}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C076883E-054A-4D6F-8F0E-F5698FE8FB69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C076883E-054A-4D6F-8F0E-F5698FE8FB69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C076883E-054A-4D6F-8F0E-F5698FE8FB69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C076883E-054A-4D6F-8F0E-F5698FE8FB69}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC3D8856-AA60-41F6-B0BE-61A20CADC860}
+	EndGlobalSection
+EndGlobal
