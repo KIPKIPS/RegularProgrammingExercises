@@ -15,12 +15,12 @@ namespace NO._131_双栈排序 {
         }
         public static List<int> twoStacksSort(int[] numbers) {
             // write code here
-            List< int>temp=new List<int>();
+            List< int>temp=new List<int>();//存储numbers的值的初始链表
             for (int i = 0; i < numbers.Length; i++) {
                 temp.Add(numbers[i]);
             }
-            List<int>data=new List<int>();
-            List<int>res=new List<int>();
+            List<int>data=new List<int>();//缓存链表,用于存储删掉最大值的temp链表
+            List<int>res=new List<int>();//排序链表
             for (int i = 0; i < numbers.Length; i++) {
                 //当前状态temp满,data为空链表
                 //将temp的值依次赋给data链表,并且查找到最大值,查找到之后将temp值为空

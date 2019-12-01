@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.852
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NO.133_二叉树平衡检测", "NO.133_二叉树平衡检测\NO.133_二叉树平衡检测.csproj", "{B9FA129A-2F00-495B-B126-F370221B8021}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9FA129A-2F00-495B-B126-F370221B8021}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9FA129A-2F00-495B-B126-F370221B8021}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9FA129A-2F00-495B-B126-F370221B8021}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9FA129A-2F00-495B-B126-F370221B8021}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7E2E2B4-76BC-4E00-B123-D6842D54D5BD}
+	EndGlobalSection
+EndGlobal
