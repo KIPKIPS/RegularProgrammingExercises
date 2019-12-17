@@ -30,12 +30,22 @@ namespace Unity聊天室_Socket_TCP_服务器端 {
                 //TODO:接收到数据的时候,把这个数据分发到客户端;
                 if (message!="") {
                     Console.WriteLine("Receive a message : " + message);
+                    Program.BoastMessage(message);
                 }
             }
         }
-
         public void Send(string message) {
             clientSocket.Send(Encoding.UTF8.GetBytes(message));
         }
+
+        //客户端是否连接的属性
+        public bool IsConnected {
+            get { return clientSocket.Connected; }
+        }
+        //向所有客户端发送消息
+        //public void Send(string message) {
+        //   byte[] data = Encoding.UTF8.GetBytes(message);
+        //  clientSocket.Send(data);
+        //}
     }
 }
