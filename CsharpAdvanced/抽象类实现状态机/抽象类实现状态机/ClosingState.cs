@@ -3,6 +3,7 @@ namespace 抽象类实现状态机 {
     public class ClosingState : LiftState {
         public ClosingState(Lift lift) : base(lift) {
         }
+        //重写状态方法
         public override void Open() {
             //先将电梯设置为打开状态
             mLift.SetState(mLift.GetClosingState());
