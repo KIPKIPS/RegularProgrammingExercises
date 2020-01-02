@@ -2,10 +2,10 @@
     //定义电梯类
     public class Lift {
         //定义出电梯的所有状态
-        private LiftState openningState;
-        private LiftState closingState;
-        private LiftState runningState;
-        private LiftState stoppingState;
+        private LiftState openningState;//电梯的打开状态
+        private LiftState closingState;//电梯的关闭状态
+        private LiftState runningState;//电梯的运行状态
+        private LiftState stoppingState;//电梯的停止运行状态
 
         // 定义当前电梯状态
         private LiftState mCurState;

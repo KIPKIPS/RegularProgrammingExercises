@@ -1,6 +1,7 @@
 ﻿using System;
 namespace 抽象类实现状态机 {
     public class OpeningState : LiftState {
+        //构造函数
         public OpeningState(Lift lift):base(lift) {
 
         }
