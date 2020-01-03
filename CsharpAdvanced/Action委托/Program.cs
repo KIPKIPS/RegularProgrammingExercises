@@ -8,28 +8,28 @@ namespace Action委托
 {
     class Program
     {
-        public static void strfun(string str)
+        public static void StrFun(string str)
         {
             Console.WriteLine(str);
         }
 
-        static int intfun()
+        static int DontHavePara()
         {
             return 1;
         }
 
-        static int intfun1(int a,int b)
+        static int HavePara(int a,int b)
         {
             return a+b;
         }
         static void Main(string[] args)
         {
-            Action<string> a = strfun;
+            Action<string> a = StrFun;
             a("ss");
-            Func<int> b = intfun;
+            Func<int> b = DontHavePara;
             Console.WriteLine(b());
 
-            Func<int, int, int> c = intfun1;//前两个int为参数,后面的int为返回值类型
+            Func<int, int, int> c = HavePara;//前两个int为参数,后面的int为返回值类型
             Console.WriteLine(c(5,8));
 
 

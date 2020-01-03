@@ -48,12 +48,8 @@ namespace 事件 {
             throw new Exception("The method or operation is not implemented.");
         }
 
-        void OnProcess() {
-            ProcessAction(this, EventArgs.Empty);
-        }
-
         public string Process() {
-            OnProcess();
+            ProcessAction(this, EventArgs.Empty);
             return Text1 + Text2;
         }
     }
