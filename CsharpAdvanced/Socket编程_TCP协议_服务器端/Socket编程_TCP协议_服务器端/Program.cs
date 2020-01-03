@@ -11,10 +11,12 @@ namespace Socket编程_TCP协议_服务器端 {
         static void Main(string[] args) {
             //1.创建Scoket
             Socket tcpServer = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+
             //2.绑定IP地址和端口号
             IPAddress ipAddress=new IPAddress(new byte[]{ 10,17,129,238 });
             EndPoint point=new IPEndPoint(ipAddress, 7788);//IPEndPoint是对IP和端口做了一层封装的类
             tcpServer.Bind(point);//向操作系统申请一个可用的IP和端口号用来做通信
+
             //3.开始监听
             Console.WriteLine("Start Listening...");
             tcpServer.Listen(100);//等待客户端做连接,参数是客户端的最大连接数
