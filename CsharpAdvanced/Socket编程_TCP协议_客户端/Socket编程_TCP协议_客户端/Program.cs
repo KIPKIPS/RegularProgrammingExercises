@@ -22,7 +22,7 @@ namespace Socket编程_TCP协议_客户端 {
             string message=Encoding.UTF8.GetString(data,0,length);//从0开始,到length结束,只把接受到的数据转换
             Console.WriteLine(message);
 
-            //向服务器端发送消息
+            //向服务器端发送消息      
             while (true) {
                 string send = Console.ReadLine();
                 if (send=="end"||send=="") {
