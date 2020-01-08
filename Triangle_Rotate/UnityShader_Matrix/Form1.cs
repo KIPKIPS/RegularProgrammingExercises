@@ -24,13 +24,15 @@ namespace UnityShader_Matrix {
             PointF A = new PointF(0, -200);
             PointF B = new PointF(200, 200);
             PointF C = new PointF(-200, 200);
-            t = new Triangle(A, B, C);
-        }
-
-        private void Timer1_Trick(object sender, EventArgs e) {
             
-            t.Rotate(1);
-            this.Invalidate();
+            t = new Triangle(A, B, C);
+            
+        }
+        static int s = 1;
+        private void Timer1_Trick(object sender, EventArgs e) {
+            t.Rotate(10);
+            t.Scale(0.95f);
+            Invalidate();
         }
     }
 }
