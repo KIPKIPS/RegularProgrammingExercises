@@ -23,6 +23,8 @@ namespace UnityShader_Matrix {
             C = NewPosition(C, angle);
         }
         //将点按照angle进行旋转
+        //原理:坐标矩阵×| cos(a)   sin(a)  | ,计算矩阵为旋转之后的坐标
+        //                        | -sin(a)  cos(a) |
         public PointF NewPosition(PointF p,float angle) {
             float newX = (float)(p.X * Math.Cos(angle)) - (float)(p.Y * Math.Sin(angle));
             float newY = (float)(p.X * Math.Sin(angle)) + (float)(p.Y * Math.Cos(angle));
