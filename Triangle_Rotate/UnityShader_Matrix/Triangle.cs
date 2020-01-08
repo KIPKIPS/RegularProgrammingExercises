@@ -39,6 +39,8 @@ namespace UnityShader_Matrix {
             C = ScalePosition(C, scale);
         }
         //计算缩放点的坐标函数,scale为每次缩放的比例
+        //原理:坐标矩阵×| k   0  | ,计算矩阵为缩放之后的坐标
+        //                        | 0   k |
         public PointF ScalePosition(PointF p, float scale) {
             float newX = scale * p.X ;
             float newY = scale * p.Y;
