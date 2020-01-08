@@ -32,7 +32,7 @@ namespace UnityShader_Matrix {
             p.Y = newY;
             return  p;
         }
-        //TODO:按照缩放比例进行缩放
+        //TODO按照缩放比例进行缩放
         public void Scale(float scale) {
             A = ScalePosition(A,scale);
             B = ScalePosition(B, scale);
