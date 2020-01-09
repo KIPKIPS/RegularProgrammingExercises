@@ -7,7 +7,7 @@
     <ProjectGuid>{2D539F1E-6E1C-4CC5-8F09-E3994469B269}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>_3DTransform</RootNamespace>
-    <AssemblyName>_3DTransform</AssemblyName>
+    <AssemblyName>3DTransform</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -52,8 +52,11 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Matrix4x4.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Triangle3D.cs" />
+    <Compile Include="Vector4.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
