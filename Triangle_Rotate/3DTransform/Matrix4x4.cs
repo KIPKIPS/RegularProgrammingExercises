@@ -33,15 +33,11 @@
             return newV;
         }
         //求转置矩阵
-        public Matrix4x4 Transpose(Matrix4x4 m) {
-            Matrix4x4 m_transpose=m;
-            for (int row = 1; row <=4; row++) {
-                for (int col = 1; col <=4; col++) {
-                    if (row<col) {
-                        double  temp = m_transpose[row, col];
-                        m_transpose[row, col] = m_transpose[col, row];
-                        m_transpose[col, row] = temp;
-                    }
+        public Matrix4x4 Transpose() {
+            Matrix4x4 m_transpose=new Matrix4x4();
+            for (int row = 0; row <4; row++) {
+                for (int col = 0; col <4; col++) {
+                    m_transpose[row+1, col+1] = pts[col, row];
                 }
             }
             return m_transpose;

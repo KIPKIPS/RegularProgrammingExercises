@@ -87,6 +87,13 @@ namespace _3DTransform {
             m_rotateZ[3, 3] = 1;
             m_rotateZ[4, 4] = 1;
 
+            Matrix4x4 mxt = m_rotateX.Transpose();
+            Matrix4x4 myt = m_rotateY.Transpose();
+            Matrix4x4 mzt = m_rotateZ.Transpose();
+            m_rotateX = m_rotateX.Mul(mxt);
+            m_rotateY = m_rotateY.Mul(myt);
+            //m_rotateZ = m_rotateZ.Mul(mzt);
+
             //模型到世界矩阵
             Matrix4x4 m = m_scale.Mul(m_rotateX);
             m = m.Mul(m_rotateY);
