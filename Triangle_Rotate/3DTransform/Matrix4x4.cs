@@ -32,5 +32,19 @@
             newV.w = v.x * this[1, 4] + v.y * this[2, 4] + v.z * this[3, 4] + v.w * this[4, 4];
             return newV;
         }
+        //求转置矩阵
+        public Matrix4x4 Transpose(Matrix4x4 m) {
+            Matrix4x4 m_transpose=m;
+            for (int row = 1; row <=4; row++) {
+                for (int col = 1; col <=4; col++) {
+                    if (row<col) {
+                        double  temp = m_transpose[row, col];
+                        m_transpose[row, col] = m_transpose[col, row];
+                        m_transpose[col, row] = temp;
+                    }
+                }
+            }
+            return m_transpose;
+        }
     }
 }

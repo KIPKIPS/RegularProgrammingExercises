@@ -48,9 +48,9 @@ namespace _3DTransform {
         }
 
         private void Form1_Load(object sender, EventArgs e) {
-            Vector4 a = new Vector4(0, -0.5, 0, 1);
-            Vector4 b = new Vector4(0.5, 0.5, 0, 1);
-            Vector4 c = new Vector4(-0.5, 0.5, 0, 1);
+            Vector4 a = new Vector4(0, 0.5, 0, 1);
+            Vector4 b = new Vector4(0.5, -0.5, 0, 1);
+            Vector4 c = new Vector4(-0.5, -0.5, 0, 1);
             t = new Triangle3D(a, b, c);
 
         }
