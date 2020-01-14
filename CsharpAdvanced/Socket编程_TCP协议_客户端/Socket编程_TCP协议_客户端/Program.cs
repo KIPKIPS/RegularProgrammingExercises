@@ -31,8 +31,6 @@ namespace Socket编程_TCP协议_客户端 {
                 Console.WriteLine("Send a message:");
                 tcpClient.Send(Encoding.UTF8.GetBytes(send));//发送客户端用户的输入
             }
-            
-            
             Console.ReadLine();
         }
     }
