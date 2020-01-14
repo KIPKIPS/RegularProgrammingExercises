@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 namespace Socket编程_TCP协议_客户端 {
     class Program {
         static void Main(string[] args) {
-            //创建socket
+            //1.创建socket
             Socket tcpClient=new Socket(AddressFamily.InterNetwork,SocketType.Stream,ProtocolType.Tcp);
-            //发起建立连接的请求
+            //2.发起建立连接的请求
             IPAddress ipAddress = IPAddress.Parse("10.18.59.166");
             EndPoint point=new IPEndPoint(ipAddress,7788);
             tcpClient.Connect(point);//通过IP和端口号连接到服务器
