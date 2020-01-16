@@ -105,14 +105,14 @@ namespace _3DTransform {
             Matrix4x4 m = m_scale.Mul(m_rotateX).Mul(m_rotateY).Mul(m_rotateZ);
 
             t.Transform(m);
-            t.normal;
+            t.CalculateLighting(m,new Vector4(-1,1,-1,0));
 
             //世界到摄像机矩阵
             Matrix4x4 mv = m.Mul(m_view);
             //相机到投影矩阵
             Matrix4x4 mvp = mv.Mul(m_projection);
             t.Transform(mvp);//传入缩放+旋转矩阵
-            this.Invalidate();
+            Invalidate();
         }
 
 
