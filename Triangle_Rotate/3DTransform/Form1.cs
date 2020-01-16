@@ -90,28 +90,28 @@ namespace _3DTransform {
             Matrix4x4 mxt = m_rotateX.Transpose();
             Matrix4x4 myt = m_rotateY.Transpose();
             Matrix4x4 mzt = m_rotateZ.Transpose();
-            if (cbx.Checked) {
+            if (!cbx.Checked) {
                 m_rotateX = m_rotateX.Mul(mxt);
             }
 
-            if (cby.Checked) {
+            if (!cby.Checked) {
                 m_rotateY = m_rotateY.Mul(myt);
             }
 
-            if (cbz.Checked) {
+            if (!cbz.Checked) {
                 m_rotateZ = m_rotateZ.Mul(mzt);
             }
+            //绕X,Y,Z轴的旋转矩阵
+            Matrix4x4 m = m_scale.Mul(m_rotateX).Mul(m_rotateY).Mul(m_rotateZ);
 
-            //模型到世界矩阵
-            Matrix4x4 m = m_scale.Mul(m_rotateX);
-            m = m.Mul(m_rotateY);
-            m = m.Mul(m_rotateZ);
+            t.Transform(m);
+            t.normal;
 
             //世界到摄像机矩阵
-            m = m.Mul(m_view);
+            Matrix4x4 mv = m.Mul(m_view);
             //相机到投影矩阵
-            m = m.Mul(m_projection);
-            t.Transform(m);//传入缩放+旋转矩阵
+            Matrix4x4 mvp = mv.Mul(m_projection);
+            t.Transform(mvp);//传入缩放+旋转矩阵
             this.Invalidate();
         }
 

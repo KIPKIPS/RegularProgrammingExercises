@@ -62,6 +62,8 @@
             // cby
             // 
             this.cby.AutoSize = true;
+            this.cby.Checked = true;
+            this.cby.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cby.Location = new System.Drawing.Point(594, 61);
             this.cby.Name = "cby";
             this.cby.Size = new System.Drawing.Size(37, 19);

@@ -4,6 +4,7 @@ namespace _3DTransform {
     public class Triangle3D {
         public Vector4 A, B, C;//原始的顶点坐标
         private Vector4 a, b, c;//变换后的顶点坐标
+        public Vector4 normal;//三角形片元的法向量
 
         public Triangle3D() {
 
@@ -40,6 +41,12 @@ namespace _3DTransform {
             p.X = (float)(v.x / v.w);
             p.Y = -(float)(v.y / v.w);
             return p;
+        }
+        //计算三角形片元法向量
+        public void CalculateNormal() {
+            Vector4 U = this.b - this.a;
+            Vector4 V = this.c - this.a;
+            normal = U.Cross(V);
         }
     }
 }
