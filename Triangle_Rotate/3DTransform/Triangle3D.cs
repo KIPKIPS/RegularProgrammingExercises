@@ -34,7 +34,7 @@ namespace _3DTransform {
             GraphicsPath path =new GraphicsPath();
             path.AddLines(this.Get2DPointFArr());//向路径中添加片元顶点
             int r = (int) (255 * dot);
-            Color color = Color.FromArgb(r,r,r,0);
+            Color color = Color.FromArgb(r,r,r,1);
             Brush br=new SolidBrush(color);
             g.FillPath(br,path);//按照路径填充片元
         }
