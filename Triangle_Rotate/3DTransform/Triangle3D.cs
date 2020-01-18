@@ -28,13 +28,13 @@ namespace _3DTransform {
         }
         //绘制三角形
         public void Draw(Graphics g) {
-            g.TranslateTransform(200,200);
+            g.TranslateTransform(300,300);
             //g.DrawLines(new Pen(Color.Black,2), Get2DPointFArr());
             //填充三角形片元
             GraphicsPath path =new GraphicsPath();
             path.AddLines(this.Get2DPointFArr());//向路径中添加片元顶点
             int r = (int) (200 * dot)+55;
-            Color color = Color.FromArgb(r,r,r,1);
+            Color color = Color.FromArgb(r,r,r);
             Brush br=new SolidBrush(color);
             g.FillPath(br,path);//按照路径填充片元
         }
