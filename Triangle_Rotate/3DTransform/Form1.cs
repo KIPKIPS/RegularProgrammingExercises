@@ -120,7 +120,7 @@ namespace _3DTransform {
         private void TrackBar1__Scroll(object sender, EventArgs e) {
             m_view[4, 3] = (sender as TrackBar).Value;//根据滑条的值改变相机距离图形的距离
         }
-        //TODO:撤销矩阵的变换
+        //TODO:实现Unity Cube
 
     }
 }
