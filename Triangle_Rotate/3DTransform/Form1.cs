@@ -45,6 +45,7 @@ namespace _3DTransform {
             m_rotateX = new Matrix4x4();
             m_rotateY = new Matrix4x4();
             m_rotateZ = new Matrix4x4();
+
         }
 
         private void Form1_Load(object sender, EventArgs e) {
