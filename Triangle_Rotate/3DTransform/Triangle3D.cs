@@ -37,8 +37,8 @@ namespace _3DTransform {
                 //填充三角形片元
                 GraphicsPath path = new GraphicsPath();
                 path.AddLines(this.Get2DPointFArr());//向路径中添加片元顶点
-                int r = (int)(200 * dot) + 55;
-                Color color = Color.FromArgb(r, r, r);
+                int colorGrayComposition = (int)(200 * dot) + 55;//颜色的灰度分量值
+                Color color = Color.FromArgb(colorGrayComposition, colorGrayComposition, colorGrayComposition);
                 Brush br = new SolidBrush(color);
                 g.FillPath(br, path);//按照路径填充片元
             }
