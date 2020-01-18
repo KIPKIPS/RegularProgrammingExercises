@@ -20,7 +20,7 @@ namespace _3DTransform {
             this.B = this.b = new Vector4(b);
             this.C = this.c = new Vector4(c);
         }
-        //三角形利用矩阵的乘法进行变换
+        //三角形片元变换操作
         public void Transform(Matrix4x4 m) {
             a= m.Mul(this.A);
             b = m.Mul(this.B);
@@ -28,12 +28,12 @@ namespace _3DTransform {
         }
         //绘制三角形
         public void Draw(Graphics g) {
-            g.TranslateTransform(300,300);
+            g.TranslateTransform(200,200);
             //g.DrawLines(new Pen(Color.Black,2), Get2DPointFArr());
             //填充三角形片元
             GraphicsPath path =new GraphicsPath();
             path.AddLines(this.Get2DPointFArr());//向路径中添加片元顶点
-            int r = (int) (255 * dot);
+            int r = (int) (200 * dot)+55;
             Color color = Color.FromArgb(r,r,r,1);
             Brush br=new SolidBrush(color);
             g.FillPath(br,path);//按照路径填充片元
