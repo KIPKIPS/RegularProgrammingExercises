@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace _3DTransform {
@@ -21,7 +14,7 @@ namespace _3DTransform {
         private Matrix4x4 m_projection;//投影矩阵
         private int degree;
 
-        Cube cube=new Cube();
+        Cube cube;
 
         public Form1() {
             InitializeComponent();
@@ -63,7 +56,7 @@ namespace _3DTransform {
 
         private void Form1_Paint(object sender, PaintEventArgs e) {
             //t.Draw(e.Graphics);
-            cube.Draw(e.Graphics,this.cbLine.Checked);
+            cube.Draw(e.Graphics,cbLine.Checked);
         }
 
         private void Timer1_Tick(object sender, EventArgs e) {
@@ -122,14 +115,14 @@ namespace _3DTransform {
             //t.Transform(mvp);//传入缩放+旋转矩阵
             cube.Transform(mvp);
             Invalidate();
-            Invalidate(false);
+            //Invalidate(false);
         }
 
 
         private void TrackBar1__Scroll(object sender, EventArgs e) {
             m_view[4, 3] = (sender as TrackBar).Value;//根据滑条的值改变相机距离图形的距离
         }
-        //TODO:实现Unity Cube
+        //TODO:实现Cube
 
     }
 }
