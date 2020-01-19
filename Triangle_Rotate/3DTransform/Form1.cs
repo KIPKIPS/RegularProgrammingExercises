@@ -20,6 +20,9 @@ namespace _3DTransform {
         public Matrix4x4 m_view;//摄像机矩阵
         private Matrix4x4 m_projection;//投影矩阵
         private int degree;
+
+        Cube cube=new Cube();
+
         public Form1() {
             InitializeComponent();
             m_scale = new Matrix4x4();
@@ -46,6 +49,8 @@ namespace _3DTransform {
             m_rotateY = new Matrix4x4();
             m_rotateZ = new Matrix4x4();
 
+            cube=new Cube();
+
         }
 
         private void Form1_Load(object sender, EventArgs e) {
@@ -57,7 +62,8 @@ namespace _3DTransform {
         }
 
         private void Form1_Paint(object sender, PaintEventArgs e) {
-            t.Draw(e.Graphics);
+            //t.Draw(e.Graphics);
+            cube.Draw(e.Graphics,this.cbLine.Checked);
         }
 
         private void Timer1_Tick(object sender, EventArgs e) {
@@ -106,14 +112,17 @@ namespace _3DTransform {
             Matrix4x4 m = m_scale.Mul(m_rotateX).Mul(m_rotateY).Mul(m_rotateZ);
 
             t.Transform(m);
-            t.CalculateLighting(m,new Vector4(-1,1,-1,0));
+            //t.CalculateLighting(m,new Vector4(-1,1,-1,0));
+            cube.CalculateLighting(m, new Vector4(-1, 1, -1, 0));
 
             //世界到摄像机矩阵
             Matrix4x4 mv = m.Mul(m_view);
             //相机到投影矩阵
             Matrix4x4 mvp = mv.Mul(m_projection);
-            t.Transform(mvp);//传入缩放+旋转矩阵
+            //t.Transform(mvp);//传入缩放+旋转矩阵
+            cube.Transform(mvp);
             Invalidate();
+            Invalidate(false);
         }
 
 

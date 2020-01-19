@@ -28,20 +28,23 @@ namespace _3DTransform {
             c = m.Mul(this.C);
         }
         //绘制三角形
-        public void Draw(Graphics g) {
-            g.TranslateTransform(300,300);
-            g.DrawLines(new Pen(Color.White,2), Get2DPointFArr());//对线框进行渲染,便于观察相机观察到片元背面的场景
-
-            //如果是背面,就不选择剔除渲染的模型
-            if (!cullBack) {
-                //填充三角形片元
-                GraphicsPath path = new GraphicsPath();
-                path.AddLines(this.Get2DPointFArr());//向路径中添加片元顶点
-                int colorGrayComposition = (int)(200 * dot) + 55;//颜色的灰度分量值
-                Color color = Color.FromArgb(colorGrayComposition, colorGrayComposition, colorGrayComposition);
-                Brush br = new SolidBrush(color);
-                g.FillPath(br, path);//按照路径填充片元
+        public void Draw(Graphics g,bool isLine) {
+            if (isLine) {
+                g.DrawLines(new Pen(Color.White, 1), Get2DPointFArr());//对线框进行渲染,便于观察相机观察到片元背面的场景
             }
+            else {
+                //如果是背面,就不选择剔除渲染的模型
+                if (!cullBack) {
+                    //填充三角形片元
+                    GraphicsPath path = new GraphicsPath();
+                    path.AddLines(this.Get2DPointFArr());//向路径中添加片元顶点
+                    int colorGrayComposition = (int)(200 * dot) + 55;//颜色的灰度分量值
+                    Color color = Color.FromArgb(colorGrayComposition, colorGrayComposition, colorGrayComposition);
+                    Brush br = new SolidBrush(color);
+                    g.FillPath(br, path);//按照路径填充片元
+                }
+            }
+           
         }
         //获取需要绘制的三角形的顶点列表
         private PointF[] Get2DPointFArr() {
