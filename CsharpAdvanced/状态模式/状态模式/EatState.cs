@@ -11,7 +11,7 @@ namespace 状态模式 {
         }
 
         public override void Sleep() {
-            animal.SetState(animal.GetSleepState());
+            animal.SetState(new SleepState(animal));
             animal.Sleep();
         }
     }
