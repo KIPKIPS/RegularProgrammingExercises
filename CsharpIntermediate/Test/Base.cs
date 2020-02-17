@@ -14,7 +14,7 @@ namespace Test
         }
         public virtual void MethodB()
         {
-
+            Console.WriteLine("父类的MethodB方法");
         }
     }
 }

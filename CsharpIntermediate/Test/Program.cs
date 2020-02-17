@@ -11,11 +11,13 @@ namespace Test
         static void Main(string[] args)
         {
             Derived de=new Derived();//子类声明子类构造对象
-            Base ba=new Derived();//父类声明子类构造对象
+            de.MethodA();//子类声明的对象会调用子类的MethodA方法 override
+            de.MethodB();// new
 
-            de.MethodA();//子类声明的对象会调用子类的MethodA方法
-            ba.MethodA();//父类声明的对象会调用父类的MethodA方法
-         
+            Base ba=new Derived();//父类声明子类构造对象
+            ba.MethodA();//父类声明的对象会调用父类的MethodA方法 //override
+            ba.MethodB();// new
+
             Console.ReadLine();
         }
     }
