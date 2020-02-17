@@ -12,7 +12,7 @@ namespace Socket编程_TCP协议_服务器端 {
             Socket tcpServer = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
 
             //2.绑定IP地址和端口号
-            IPAddress ipAddress=new IPAddress(new byte[]{ 10,18,59,166 });
+            IPAddress ipAddress=new IPAddress(new byte[]{ 192,168,1,3 });
             EndPoint point=new IPEndPoint(ipAddress, 7788);//IPEndPoint是对IP和端口做了一层封装的类
             tcpServer.Bind(point);//向操作系统申请一个可用的IP和端口号用来做通信
 
