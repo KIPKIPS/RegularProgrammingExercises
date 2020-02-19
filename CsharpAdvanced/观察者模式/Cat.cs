@@ -1,5 +1,4 @@
 ﻿using System;
-
 namespace 观察者模式//被观察者类
 {
     public class Cat {
@@ -13,9 +12,7 @@ namespace 观察者模式//被观察者类
         //public void CatComing(Mouse mousse1,Mouse mouse2)//被观察者的状态发生改变
         public void CatComing() {
             Console.WriteLine(color + "的" + name + "来了,喵喵喵...");
-            if (catCome != null) {
-                catCome();
-            }
+            catCome?.Invoke();
         }
         public event Action catCome;//声明一个事件,发布消息
     }
