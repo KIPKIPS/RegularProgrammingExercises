@@ -8,10 +8,10 @@ using System.Threading.Tasks;
 namespace ConsoleApp1 {
     class Program {
         static void Main(string[] args) {
-            string tar = Console.ReadLine();
-            char[] tarCharArray = tar.ToCharArray();
-            Array.Sort(tarCharArray);
-            Array.Reverse(tarCharArray);
+            string tar = Console.ReadLine();//读取控制台输入
+            char[] tarCharArray = tar.ToCharArray();//将字符串转化成字符数组
+            Array.Sort(tarCharArray);//字符数组排序
+            Array.Reverse(tarCharArray);//逆置
             string d = "";
             string result = "";
             HashSet<char> dic=new HashSet<char>();
