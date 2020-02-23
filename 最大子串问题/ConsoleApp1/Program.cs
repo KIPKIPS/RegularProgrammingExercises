@@ -13,8 +13,8 @@ namespace ConsoleApp1 {
             Array.Sort(tarCharArray);//字符数组排序
             Array.Reverse(tarCharArray);//逆置
             string d = "";
-            string result = "";
-            HashSet<char> dic=new HashSet<char>();
+            string result = "";//存储最大子串
+            HashSet<char> dic=new HashSet<char>();//字符串的hash表
             foreach (char VARIABLE in tarCharArray) {
                 if (!dic.Contains(VARIABLE)) {
                     dic.Add(VARIABLE);
