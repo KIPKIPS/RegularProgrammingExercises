@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.852
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "华为笔试题", "华为笔试题\华为笔试题.csproj", "{C3DA853D-A2BF-4660-9D50-8C6493209B13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "华为笔试题二", "华为笔试题二\华为笔试题二.csproj", "{2943FCB9-6F2C-445E-ACFF-FD13E59D0948}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3DA853D-A2BF-4660-9D50-8C6493209B13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3DA853D-A2BF-4660-9D50-8C6493209B13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3DA853D-A2BF-4660-9D50-8C6493209B13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3DA853D-A2BF-4660-9D50-8C6493209B13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2943FCB9-6F2C-445E-ACFF-FD13E59D0948}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2943FCB9-6F2C-445E-ACFF-FD13E59D0948}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2943FCB9-6F2C-445E-ACFF-FD13E59D0948}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2943FCB9-6F2C-445E-ACFF-FD13E59D0948}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AAA823CD-AF18-4331-B52E-CCA41AEB4871}
+	EndGlobalSection
+EndGlobal
