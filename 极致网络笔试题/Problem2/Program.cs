@@ -82,6 +82,7 @@ namespace Problem2 {
                     break;
                 }
             }
+            //Recursion_LRD(root);
             Console.ReadLine();
         }
 
@@ -95,10 +96,19 @@ namespace Problem2 {
             return tar.Length - 1;
         }
 
-        static void LRD(TreeNode root) {
+        //递归后序遍历
+        static void Recursion_LRD(TreeNode root) {
             if (root.Left!=null) {
-                
+                Recursion_LRD(root.Left);
             }
+            if (root.Right!=null) {
+                Recursion_LRD(root.Right);
+            }
+            Console.Write(root.data+" ");
+        }
+        //非递归后序遍历
+        static void Non_Recursion_LRD(TreeNode root) {
+            
         }
     }
 }
