@@ -21,7 +21,7 @@ namespace 乐易网络笔试题 {
                 id = 1,
                 level = 3,
                 load = 1,
-                own_num =40
+                own_num = 40
             };
             //弓兵
             TroopItem archer = new TroopItem {
@@ -44,14 +44,14 @@ namespace 乐易网络笔试题 {
                 load = 4,
                 own_num = 10
             };
-            List<TroopItem> data=new List<TroopItem>();
+            List<TroopItem> data = new List<TroopItem>();
             data.Add(infantry);
             data.Add(archer);
             data.Add(sowar);
             data.Add(Siege);
-            List<TroopItem>res=QuickSelectTroopList(35, 34, data);
+            List<TroopItem> res = QuickSelectTroopList(250, 200, data);
             for (int i = 0; i < res.Count; i++) {
-                Console.Write(res[i].id+" "+res[i].select_num);
+                Console.Write(res[i].id + " " + res[i].select_num);
                 Console.WriteLine();
             }
             Console.ReadLine();
@@ -59,21 +59,18 @@ namespace 乐易网络笔试题 {
         //贪心算法,从拉取最多资源数的士兵开始拉取资源
         //有四个兵种(步兵，弓兵，骑兵，攻城兵)
         static List<TroopItem> QuickSelectTroopList(int res_max, int march_size_max, List<TroopItem> own_troop_list) {
-            int loadSource = 4;
-            int soldierNum = 1;
-            List< TroopItem>res=new List<TroopItem>();
-            for (int i = own_troop_list.Count-1; i >=0; i--) {
-                Console.Write("type"+own_troop_list[i].id + " : ");
-                for (int j = 1; j <=own_troop_list[i].own_num;++ j) {
+            int loadSource = 0;//初始可加载资源数(可携带资源兵种最大的兵种)
+            int soldierNum = 0;//初始士兵数量
+            List<TroopItem> res = new List<TroopItem>();
+            //从携带资源数最大的兵种开始遍历
+            for (int i = own_troop_list.Count - 1; i >= 0; i--) {
+                loadSource += own_troop_list[i].load;
+                //Console.Write("type"+own_troop_list[i].id + " : ");
+                for (int j = 1; j <= own_troop_list[i].own_num; ++j) {
+                    //若携带资源数大于等于需要资源或者士兵数量超出可携带上限
                     if (loadSource >= res_max || soldierNum >= march_size_max) {
-                        if (i==own_troop_list.Count-1) {
-                            TroopItem temp = new TroopItem { id = own_troop_list[i].id, select_num = j };
-                            res.Add(temp);
-                        }
-                        else {
-                            TroopItem temp=new TroopItem{id=own_troop_list[i].id,select_num = j-1};
+                        TroopItem temp = new TroopItem { id = own_troop_list[i].id, select_num = j };
                         res.Add(temp);
-                        }
                         break;
                     }
                     else {
@@ -83,11 +80,11 @@ namespace 乐易网络笔试题 {
                         }
                         else {
                             loadSource += own_troop_list[i].load;
-                            ++soldierNum ;
+                            soldierNum++;
                         }
                     }
                 }
-                Console.WriteLine("load: "+loadSource+" num: "+soldierNum);
+                Console.WriteLine("LoadSource: " + loadSource + "\t SoldierNumber: " + (soldierNum+1));
                 if (loadSource >= res_max || soldierNum >= march_size_max) {
                     break;
                 }
