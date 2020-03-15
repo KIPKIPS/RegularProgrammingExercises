@@ -11,64 +11,37 @@ namespace Problem_01 {
             List<string> res = new List<string>();
             for (int i = 0; i < n; i++) {
                 string t = Console.ReadLine();
-                List<char> temp = t.ToList();
-                for (int j = 0; j <= temp.Count;) {
-                    //AAA格式
-                    if (j + 3 <= temp.Count && temp[j] == temp[j + 1] && temp[j] == temp[j + 2]) {
-                        temp.RemoveAt(j);
+                string ans = t[0]+"";
+                int state = 0;
+                char cur;
+                char last= t[0];
+                for (int j = 1; j <t.Length; j++) {
+                    cur = t[j];
+                    switch (state) {
+                        case 0:
+                            if (cur==last) 
+                                state = 1;
+                            else 
+                                state = 0;
+                            break;
+                        case 1:
+                            if (cur==last) 
+                                continue;
+                            else 
+                                state = 2;
+                            break;
+                        case 2:
+                            if (cur==last) 
+                                continue;
+                            else 
+                                state = 0;
+                            break;
                     }
-                    if (j + 2 <= temp.Count && j - 1 >= 0 && temp[j - 1] == temp[j] && temp[j] == temp[j + 1]) {
-                        temp.RemoveAt(j-1);
-                    }
-                    if (j + 1 <= temp.Count && j - 2 >= 0 && temp[j - 2] == temp[j - 1] && temp[j - 1] == temp[j]) {
-                        temp.RemoveAt(j -2);
-                    }
-                    //AABB格式
-                    if (j + 4 <= temp.Count && temp[j] == temp[j + 1] && temp[j + 2] == temp[j + 3]) {
-                        temp.RemoveAt(j + 2);
-                    }
-
-                    if (j + 3 <= temp.Count && j - 1 >= 0 && temp[j - 1] == temp[j] && temp[j + 1] == temp[j + 2]) {
-                        temp.RemoveAt(j + 1);
-                    }
-
-                    if (j + 2 <= temp.Count && j - 2 >= 0 && temp[j - 2] == temp[j - 1] && temp[j] == temp[j + 1]) {
-                        temp.RemoveAt(j);
-                    }
-
-                    if (j + 1 <= temp.Count && j - 3 >= 0 && temp[j - 3] == temp[j - 2] && temp[j - 1] == temp[j]) {
-                        temp.RemoveAt(j);
-                    }
-
-                    //AABBCC格式
-                    if (j + 6 <= temp.Count && temp[j] == temp[j + 1] && temp[j + 2] == temp[j + 3] && temp[j + 4] == temp[j + 5]) {
-                        temp.RemoveAt(j + 2);
-                    }
-                    if (j + 5 <= temp.Count && j - 1 >= 0 && temp[j - 1] == temp[j] && temp[j + 1] == temp[j + 2] && temp[j + 3] == temp[j + 4]) {
-                        temp.RemoveAt(j + 1);
-                    }
-                    if (j + 4 <= temp.Count && j - 2 >= 0 && temp[j - 2] == temp[j - 1] && temp[j] == temp[j + 1] && temp[j + 2] == temp[j + 3]) {
-                        temp.RemoveAt(j);
-                    }
-                    if (j + 3 <= temp.Count && j - 3 >= 0 && temp[j - 3] == temp[j - 2] && temp[j - 1] == temp[j] && temp[j + 1] == temp[j + 2]) {
-                        temp.RemoveAt(j);
-                    }
-                    if (j + 2 <= temp.Count && j - 4 >= 0 && temp[j - 4] == temp[j - 3] && temp[j - 2] == temp[j - 1] && temp[j] == temp[j + 1]) {
-                        temp.RemoveAt(j - 1);
-                    }
-                    if (j + 1 <= temp.Count && j - 5 >= 0 && temp[j - 5] == temp[j - 4] && temp[j - 3] == temp[j - 2] && temp[j - 1] == temp[j]) {
-                        temp.RemoveAt(j - 2);
-                    }
-                    j++;
+                    last = cur;
+                    ans += cur;
                 }
-
-                string tem = "";
-                foreach (var c in temp)
-                    tem += c;
-                res.Add(tem);
-                //Console.WriteLine(tem);
+                res.Add(ans);
             }
-
             int index = 0;
             foreach (var r in res) {
                 Console.WriteLine(r);
