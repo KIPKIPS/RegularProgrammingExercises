@@ -13,11 +13,11 @@ namespace 二分法 {
                 data[i] = Convert.ToInt32(inp[i]);
             }
 
-            Console.WriteLine(Search(data,5));
+            Console.WriteLine(Bisection(data,5));
             Console.ReadLine();
         }
         //二分查找
-        static int Search(int[] data,int key) {
+        static int Bisection(int[] data,int key) {
             int low = 0;
             int mid = -1;
             int high = data.Length - 1;

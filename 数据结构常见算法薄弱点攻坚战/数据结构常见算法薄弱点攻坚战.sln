@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.852
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "二分法", "二分法\二分法.csproj", "{4A4B587F-24FA-44ED-B74E-2C6E10429F0D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "直接插入排序", "直接插入排序\直接插入排序.csproj", "{52A557E5-E0EA-42A5-85C1-CA3F92C6D58B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "二分插入排序", "二分插入排序\二分插入排序.csproj", "{61EBECA9-BA9E-4A75-A5E2-0D39F3682906}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{4A4B587F-24FA-44ED-B74E-2C6E10429F0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A4B587F-24FA-44ED-B74E-2C6E10429F0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A4B587F-24FA-44ED-B74E-2C6E10429F0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52A557E5-E0EA-42A5-85C1-CA3F92C6D58B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52A557E5-E0EA-42A5-85C1-CA3F92C6D58B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52A557E5-E0EA-42A5-85C1-CA3F92C6D58B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52A557E5-E0EA-42A5-85C1-CA3F92C6D58B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61EBECA9-BA9E-4A75-A5E2-0D39F3682906}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61EBECA9-BA9E-4A75-A5E2-0D39F3682906}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61EBECA9-BA9E-4A75-A5E2-0D39F3682906}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61EBECA9-BA9E-4A75-A5E2-0D39F3682906}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
