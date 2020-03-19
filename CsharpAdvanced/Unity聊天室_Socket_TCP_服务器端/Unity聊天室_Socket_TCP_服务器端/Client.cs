@@ -9,10 +9,10 @@ namespace Unity聊天室_Socket_TCP_服务器端 {
     public class Client {
         private Socket clientSocket;
         private Thread t;
-        private byte[] data=new byte[1024];//数据容器
+        private byte[] data = new byte[1024];//数据容器
         public Client(Socket s) {
             clientSocket = s;
-            t =new Thread(ReceiveMessage);
+            t = new Thread(ReceiveMessage);
             t.Start();
         }
         //启动一个线程处理数据的接收
@@ -28,9 +28,9 @@ namespace Unity聊天室_Socket_TCP_服务器端 {
                 int length = clientSocket.Receive(data);
                 string message = Encoding.UTF8.GetString(data, 0, length);
                 //TODO:接收到数据的时候,把这个数据分发到客户端;
-                if (message!="") {
+                if (message != "") {
                     Console.WriteLine("Receive a message : " + message);
-                    Program.BoastMessage(message);
+                    //Program.BoastMessage(message);//向客户端发送消息
                 }
             }
         }
@@ -43,9 +43,9 @@ namespace Unity聊天室_Socket_TCP_服务器端 {
             get { return clientSocket.Connected; }
         }
         //向所有客户端发送消息
-        //public void Send(string message) {
-        //   byte[] data = Encoding.UTF8.GetBytes(message);
-        //  clientSocket.Send(data);
-        //}
+//        public void BoastMessageToClient(string message) {
+//            byte[] data = Encoding.UTF8.GetBytes(message);
+//            clientSocket.Send(data);
+//        }
     }
 }
