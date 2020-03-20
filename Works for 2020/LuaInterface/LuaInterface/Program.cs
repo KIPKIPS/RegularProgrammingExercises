@@ -52,5 +52,13 @@ namespace TestLuaInterface {
         public void Method() {
             Console.WriteLine("王学习");
         }
+
+        public int Out(string x,out int count ) {
+            count = x.Length;
+            return count*2;
+        }
+        public string Ref(string x, ref int count) {
+            return x +count;
+        }
     }
 }

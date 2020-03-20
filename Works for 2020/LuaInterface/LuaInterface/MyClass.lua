@@ -8,7 +8,10 @@ print(num)
 
 luanet.load_assembly("TestLuaInterface")
 Program = luanet.import_type("TestLuaInterface.Program")
+
 init=Program() --构造函数
 print(init.name)
 init:Method()
+print(init:Out("xxxx")) --out参数的值也会输出,先输出结果,再输出out参数值
+print(init:Ref("xxxx",4)) --ref参数的值也会输出,先输出结果,再输出ref参数值
 
