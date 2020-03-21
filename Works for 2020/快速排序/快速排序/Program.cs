@@ -22,8 +22,10 @@ namespace 快速排序 {
                 while (true) {
                     while (numbers[++i] < middle) { }
                     while (numbers[--j] > middle) {}
-                    if (i >= j)
+                    if (i >= j) {
                         break;
+                    }
+                        
                     Swap(numbers, i, j);
                 }
                 QuickSort(numbers, left, i - 1);
