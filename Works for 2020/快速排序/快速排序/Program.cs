@@ -25,7 +25,6 @@ namespace 快速排序 {
                     if (i >= j) {
                         break;
                     }
-                        
                     Swap(numbers, i, j);
                 }
                 QuickSort(numbers, left, i - 1);
