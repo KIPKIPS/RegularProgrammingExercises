@@ -28,6 +28,8 @@ namespace 文件操作 {
             if (newFile.Exists==false) {
                 newFile.Create();
             }
+            //重命名操作
+            newFile.MoveTo("NewFile_2.txt");
             Console.ReadLine();
         }
     }
