@@ -85,8 +85,8 @@ namespace 正则表达式
 
             //校验IPV4地址 0-255.0-255.0-255.0-255
             string pattern = @"^(((2[0-4]\d|25[0-5]|[01]?\d\d?)\.){3}(2[0-4]\d|25[0-5]|[01]?\d\d?))$";
-            string s = "552.56.52.255";
-            Console.WriteLine(Regex.IsMatch(s,pattern));
+            string ss = "552.56.52.255";
+            Console.WriteLine(Regex.IsMatch(ss,pattern));
 
 
 
