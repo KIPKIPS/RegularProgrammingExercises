@@ -50,6 +50,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Can.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="TextFile.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
