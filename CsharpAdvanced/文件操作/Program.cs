@@ -22,6 +22,12 @@ namespace 文件操作 {
             //方法
             //file_1.Delete();//删除文件
             file_1.CopyTo("Copy.txt");//将file_1复制一份,存为Copy.txt
+            
+            FileInfo newFile=new FileInfo("NewFile.txt");
+            //若文件不存在 则创建文件
+            if (newFile.Exists==false) {
+                newFile.Create();
+            }
             Console.ReadLine();
         }
     }
