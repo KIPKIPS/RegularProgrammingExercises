@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "文件夹目录操作", "�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "文件读写操作", "文件读写操作\文件读写操作.csproj", "{6720EDC9-76F7-432D-9618-F5DABECB1CEA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Filestream读写文件", "Filestream读写文件\Filestream读写文件.csproj", "{F147C060-483C-4267-BC67-1F40F2F54DE1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{6720EDC9-76F7-432D-9618-F5DABECB1CEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6720EDC9-76F7-432D-9618-F5DABECB1CEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6720EDC9-76F7-432D-9618-F5DABECB1CEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F147C060-483C-4267-BC67-1F40F2F54DE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F147C060-483C-4267-BC67-1F40F2F54DE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F147C060-483C-4267-BC67-1F40F2F54DE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F147C060-483C-4267-BC67-1F40F2F54DE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
