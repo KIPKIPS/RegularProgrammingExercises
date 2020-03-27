@@ -36,6 +36,7 @@ namespace Stream读写文件 {
 
             //写入流
             StreamWriter writer=new StreamWriter("Write.txt");//若文件路径不存在,则创建
+            //若存在,则源文件被覆盖
             while (true) {
                 string message = Console.ReadLine();
                 if (message == "q") {
