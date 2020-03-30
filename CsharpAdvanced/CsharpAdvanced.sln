@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XML", "XML\XML.csproj", "{4
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XML技能解析", "XML技能解析\XML技能解析.csproj", "{B63C33BF-9C0B-47B0-BE73-49CEE656DB9C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON", "JSON\JSON.csproj", "{073CF24E-39DC-49B4-8CC5-88A30631B358}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{B63C33BF-9C0B-47B0-BE73-49CEE656DB9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B63C33BF-9C0B-47B0-BE73-49CEE656DB9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B63C33BF-9C0B-47B0-BE73-49CEE656DB9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{073CF24E-39DC-49B4-8CC5-88A30631B358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{073CF24E-39DC-49B4-8CC5-88A30631B358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{073CF24E-39DC-49B4-8CC5-88A30631B358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{073CF24E-39DC-49B4-8CC5-88A30631B358}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
