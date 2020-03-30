@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<skills>
+  <skill>
+    <id>2</id>
+    <name lang="cn">科恩的开膛手</name>
+    <damage>200</damage>
+  </skill>
+  <skill>
+    <id>3</id>
+    <name lang="cn">最后的轻语</name>
+    <damage>500</damage>
+  </skill>
+  <skill>
+    <id>4</id>
+    <name lang="en">Halyna's Murmur</name>
+    <damage>400</damage>
+  </skill>
+</skills>
