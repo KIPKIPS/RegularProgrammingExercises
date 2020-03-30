@@ -8,9 +8,9 @@ using System.IO;
 
 namespace JSON {
     public class Skill {
-        public int id { get; set; }
-        public string name { get; set; }
-        public int damage { get; set; }
+        public int ID { get; set; }
+        public string Name { get; set; }
+        public int Damage { get; set; }
     }
     class Program {
         static void Main(string[] args) {
@@ -20,10 +20,10 @@ namespace JSON {
             Skill[] skills = JsonConvert.DeserializeObject<Skill[]>(jsonText);
             Console.WriteLine("id" + "\t" + "name" + "\t\t" + "damage");
             foreach (Skill s in skills) {
-                Console.WriteLine(s.id + "\t" + s.name + "\t" + s.damage);
+                Console.WriteLine(s.ID + "\t" + s.Name + "\t" + s.Damage);
             }
             Skill mySkill = new Skill {
-                id=6,name="冰川增幅",damage = 100
+                ID= 6,Name="冰川增幅",Damage = 100
             };
             string jsonMySkill=JsonConvert.SerializeObject(mySkill);
             Console.WriteLine(jsonMySkill);
