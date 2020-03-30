@@ -1,4 +1,4 @@
-<SkillInfo>
+﻿<SkillInfo>
     <SkillList>
         <Skill
             SkillID="20002"  
@@ -7,7 +7,7 @@
             ImageFile="data/gfx/image/gui_icon_skill_000.dds" 
             AvailableRace="7" 
         >
-			<Name>�ػ�</Name>
+			<Name>重击</Name>
 		</Skill>
         <Skill
             SkillID="20003" 
@@ -16,7 +16,7 @@
             ImageFile="data/gfx/image/gui_icon_skill_001.dds"
             AvailableRace="1" 
         >
-			<Name>����</Name>
+			<Name>隐身</Name>
 		</Skill>
         <Skill
             SkillID="20004" 
@@ -25,7 +25,7 @@
             ImageFile="data/gfx/image/gui_icon_skill_002.dds" 
             AvailableRace="1" 
         >
-			<Name>ŭ֮��</Name>
+			<Name>怒之翼</Name>
 		</Skill>
         <Skill
             SkillID="20005" 
@@ -34,7 +34,7 @@
             ImageFile="data/gfx/image/gui_icon_skill_003.dds" 
             AvailableRace="2" 
         >
-			<Name>��֮����</Name>
+			<Name>光之复仇</Name>
 		</Skill>
     </SkillList>
 </SkillInfo>
