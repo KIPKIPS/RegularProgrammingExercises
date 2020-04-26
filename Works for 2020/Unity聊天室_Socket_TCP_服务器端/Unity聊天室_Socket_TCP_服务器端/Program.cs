@@ -12,7 +12,7 @@ namespace Unity聊天室_Socket_TCP_服务器端 {
         static List< Client>clientList=new List<Client>();//存储所有客户端信息的集合,遍历该集合可以给所有客户端发送消息
         static void Main(string[] args) {
             Socket tcpServer=new Socket(AddressFamily.InterNetwork,SocketType.Stream,ProtocolType.Tcp);
-            tcpServer.Bind(new IPEndPoint(IPAddress.Parse("192.168.1.23"), 7788 ));
+            tcpServer.Bind(new IPEndPoint(IPAddress.Parse("192.168.15.18"), 7788 ));
             tcpServer.Listen(100);
             Console.WriteLine("Server is running");
             //循环等待客户端连接
