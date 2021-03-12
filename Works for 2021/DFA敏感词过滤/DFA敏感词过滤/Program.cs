@@ -8,16 +8,30 @@ namespace DFA敏感词过滤 {
         static void Main(string[] args) {
             List<string> filterMap = new List<string>();
             filterMap.Add("你是谁");
+            filterMap.Add("你是狗吧");
+            filterMap.Add("你妈");
+            filterMap.Add("我是狗");
+            filterMap.Add("我是工具人");
+            filterMap.Add("我是你爸");
             filterMap.Add("我是你爸爸");
+            filterMap.Add("我是你爹");
             filterMap.Add("你说什么");
+            filterMap.Add("你说啥");
             filterMap.Add("你妈的为什么");
+            filterMap.Add("你妈的");
+            filterMap.Add("什么");
             filterMap.Add("什么破玩意");
             filterMap.Add("垃圾");
             filterMap.Add("哈哈哈");
             filterMap.Add("写的什么垃圾代码");
             InitFilter(filterMap);
+            foreach (DictionaryEntry de in map) {
+                Console.WriteLine(de.Key + " - " + de.Value);
+            }
             Console.ReadLine();
         }
+
+        //DFA构造敏感词树
         private static Hashtable map;
         private static void InitFilter(List<string> words) {
             map = new Hashtable(words.Count);
@@ -35,12 +49,16 @@ namespace DFA敏感词过滤 {
                         indexMap = newMap;
                     }
                     if (j == word.Length - 1) {
-                        if (indexMap.ContainsKey("IsEnd")) indexMap["IsEnd"] = 1;
-                        else indexMap.Add("IsEnd", 1);
+                        if (indexMap.ContainsKey("IsEnd")) {
+                            indexMap["IsEnd"] = 1;
+                        } else {
+                            indexMap.Add("IsEnd", 1);
+                        }
                     }
                 }
             }
         }
+        //检测敏感词
         private int CheckFilterWord(string txt, int beginIndex) {
             bool flag = false;
             int len = 0;
@@ -49,14 +67,23 @@ namespace DFA敏感词过滤 {
                 char c = txt[i];
                 Hashtable temp = (Hashtable)curMap[c];
                 if (temp != null) {
-                    if ((int)temp["IsEnd"] == 1) flag = true;
-                    else curMap = temp;
+                    if ((int)temp["IsEnd"] == 1) {
+                        flag = true;
+                    } else {
+                        curMap = temp;
+                    }
                     len++;
-                } else break;
+                } else {
+                    break;
+                }
             }
-            if (!flag) len = 0;
+
+            if (!flag) {
+                len = 0;
+            }
             return len;
         }
+        //搜索敏感词并替换
         public string SerachFilterWordAndReplace(string txt) {
             int i = 0;
             StringBuilder sb = new StringBuilder(txt);
@@ -67,7 +94,9 @@ namespace DFA敏感词过滤 {
                         sb[i + j] = '*';
                     }
                     i += len;
-                } else ++i;
+                } else {
+                    ++i;
+                }
             }
             return sb.ToString();
         }
