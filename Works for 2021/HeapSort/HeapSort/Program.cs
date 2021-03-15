@@ -40,21 +40,18 @@ namespace HeapSort {
             int rightIndex = index * 2 + 2;//右子索引
             int tempMaxIndex = index;//值最大的索引
             //查找最大值索引
-
             if (leftIndex < length) {
                 bool leftCondition = isBigRootHeap ? tree[leftIndex] > tree[tempMaxIndex] : tree[leftIndex] < tree[tempMaxIndex];
                 if (leftCondition) {
                     tempMaxIndex = leftIndex;
                 }
             }
-
             if (rightIndex < length) {
                 bool rightCondition = isBigRootHeap ? tree[rightIndex] > tree[tempMaxIndex] : tree[rightIndex] < tree[tempMaxIndex];
                 if (rightCondition) {
                     tempMaxIndex = rightIndex;
                 }
             }
-
             if (tempMaxIndex != index) { //将最大值放到根上
                 Swap(tree, tempMaxIndex, index);
                 Heapify(tree, length, tempMaxIndex, isBigRootHeap);
