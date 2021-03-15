@@ -1,3 +1,6 @@
+//externalTerminal 外部终端
+//internalConsole 内部终端
+//none/internalConsole 只输出到调试控制台，internalConsole是新版本vscode的选项
 {
     "version": "0.2.0",
     "configurations": [
@@ -9,7 +12,7 @@
             "program": "${workspaceFolder}/Works for 2021/DFA敏感词过滤/DFA敏感词过滤/bin/Debug/netcoreapp3.1/DFA敏感词过滤.dll",
             "args": [],
             "cwd": "${workspaceFolder}",
-            "console": "internalConsole",
+            "console": "externalTerminal",//"internalConsole",
             "stopAtEntry": false,
             "internalConsoleOptions": "openOnSessionStart"
         },
@@ -21,7 +24,7 @@
             "program": "${workspaceFolder}/Works for 2021/HeapSort/HeapSort/bin/Debug/netcoreapp3.1/HeapSort.dll",
             "args": [],
             "cwd": "${workspaceFolder}",
-            "console": "internalConsole",
+            "console": "externalTerminal",
             "stopAtEntry": false,
             "internalConsoleOptions": "openOnSessionStart"
         },

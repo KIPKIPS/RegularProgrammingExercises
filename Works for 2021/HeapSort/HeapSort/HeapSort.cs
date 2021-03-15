@@ -1,10 +1,9 @@
 ﻿using System;
-using System.ComponentModel.Design;
 
 //大根堆排序为升序,求topK小,小根堆排序为升序,求topK大
 
 namespace HeapSort {
-    class Program {
+    class HeapSort {
         static void Main(string[] args) {
             int[] array = { 1, 5, 4, 2, 56, 12, 78, 9, 20, 15 };
             //HeapSort(array);
