@@ -13,7 +13,7 @@ namespace HeapSort {
             // for (int i = 0; i < array.Length; i++) {
             //     Console.Write(array[i] + " ");
             // }
-            int topK = TopK(array, 5, false);
+            int topK = TopK(array, 1, false);
             Console.WriteLine(topK);
             Console.Read();
         }

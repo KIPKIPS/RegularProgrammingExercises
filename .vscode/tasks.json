@@ -1,0 +1,17 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/Works for 2021/HeapSort/HeapSort/HeapSort.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
