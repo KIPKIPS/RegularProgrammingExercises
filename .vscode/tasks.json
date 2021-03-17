@@ -9,19 +9,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/Works for 2021/HeapSort/HeapSort/HeapSort.csproj"
-            ],
-            "problemMatcher": "$msCompile"
-        },
-        {
-            "label": "build",
-            "command": "dotnet",
-            "type": "process",
-            "args": [
-                "build",
-                "${workspaceFolder}/Works for 2021/DFA敏感词过滤/DFA敏感词过滤/DFA敏感词过滤.csproj",
-                "/property:GenerateFullPaths=true",
-                "/consoleloggerparameters:NoSummary"
+                "${workspaceFolder}/SelectionSort/SelectionSort.csproj"
             ],
             "problemMatcher": "$msCompile"
         },

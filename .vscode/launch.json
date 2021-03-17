@@ -5,26 +5,14 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "DFA敏感词过滤",
+            "name": "SelectionSort",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/Works for 2021/DFA敏感词过滤/DFA敏感词过滤/bin/Debug/netcoreapp3.1/DFA敏感词过滤.dll",
+            "program": "${workspaceFolder}/SelectionSort/bin/Debug/netcoreapp3.1/SelectionSort.dll",
             "args": [],
             "cwd": "${workspaceFolder}",
-            "console": "externalTerminal",//"internalConsole",
-            "stopAtEntry": false,
-            "internalConsoleOptions": "openOnSessionStart"
-        },
-        {
-            "name": "HeapSort",
-            "type": "coreclr",
-            "request": "launch",
-            "preLaunchTask": "build",
-            "program": "${workspaceFolder}/Works for 2021/HeapSort/HeapSort/bin/Debug/netcoreapp3.1/HeapSort.dll",
-            "args": [],
-            "cwd": "${workspaceFolder}",
-            "console": "externalTerminal",
+            "console": "externalTerminal", //"internalConsole",
             "stopAtEntry": false,
             "internalConsoleOptions": "openOnSessionStart"
         },
