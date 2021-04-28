@@ -133,15 +133,32 @@ namespace 二叉树
         //后序遍历,非递归版本,栈实现
         static void PostOrderTraversal(TreeNode root) {
             TreeNode temp = root;
-            while (true) {
+            TreeNode lastAccessNode = null;
+            while (true){
                 if (temp != null) {
+                    if (temp.right==null && temp.left==null)
+                    {
+                        lastAccessNode = temp;
+                        Console.Write(temp.value);
+                    }
+                    if(temp.right != null && lastAccessNode == temp.right)
+                    {
+                        Console.Write(temp.right.value);
+                    }
+                    
                     preorderTraversalStack.Push(temp);
                     temp = temp.left;
-                } else {
+                } else{ 
                     if (preorderTraversalStack.Count > 0) {
-                        temp = preorderTraversalStack.Pop(); 
-                        temp = temp.right;
-                        
+                        TreeNode peek = preorderTraversalStack.Pop();
+                        temp = peek.right;
+                        //lastAccessNode = temp;
+                        //if (lastAccessNode == temp && temp != null)
+                        //{
+                        //lastAccessNode = temp;
+                        //Console.Write(temp.value);
+                        //}
+
                     } else {
                         break;
                     }
