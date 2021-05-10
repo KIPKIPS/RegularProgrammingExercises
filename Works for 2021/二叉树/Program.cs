@@ -24,7 +24,7 @@ namespace 二叉树 {
             B.left = D;
             B.right = E;
             C.left = F;
-            PostOrderTraversalSingleStack(A);
+            LevelTraversal(A);
             Console.Read();
         }
         //前序遍历,递归版本
@@ -145,6 +145,21 @@ namespace 二叉树 {
                     } else {
                         break;
                     }
+                }
+            }
+        }
+        static void LevelTraversal(TreeNode root) {
+            Queue<TreeNode> queue = new Queue<TreeNode>();
+            queue.Enqueue(root);
+            TreeNode temp;
+            while(queue.Count > 0) {
+                temp = queue.Dequeue();
+                Console.Write(temp.value + " ");
+                if(temp.left != null) {
+                    queue.Enqueue(temp.left);
+                }
+                if (temp.right != null) {
+                    queue.Enqueue(temp.right);
                 }
             }
         }
