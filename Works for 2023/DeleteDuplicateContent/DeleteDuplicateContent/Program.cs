@@ -62,28 +62,33 @@ class Program {
             }
         }
         CreateFilterList(map);
-        Console.WriteLine($"剔除重复后剩余普通串数量:{filters.Count}");
-        Console.WriteLine($"正则串数量:{regexList.Count}");
-        string newPath = @"C:\Users\admin\Desktop\CSV\dirtyWordFilter.csv";
-        if (File.Exists(newPath)) {
-            File.Delete(newPath);
+        string stringPath = @"C:\Users\admin\Desktop\CSV\dirtyWordFilterString.csv";
+        string regexPath = @"C:\Users\admin\Desktop\CSV\dirtyWordFilterRegex.csv";
+        if (File.Exists(stringPath)) {
+            File.Delete(stringPath);
         }
-        FileStream fs1 = new FileStream(newPath, FileMode.Create, FileAccess.Write);
+        FileStream fs1 = new FileStream(stringPath, FileMode.Create, FileAccess.Write);
         StreamWriter writer = new StreamWriter(fs1, Encoding.UTF8);
         for (int i = 0; i < filters.Count; i++) {
             if (!string.IsNullOrEmpty(filters[i])) {
                 writer.WriteLine(filters[i]);
             }
         }
-        writer.WriteLine("");
+        if (File.Exists(regexPath)) {
+            File.Delete(regexPath);
+        }
+        FileStream fs2 = new FileStream(regexPath, FileMode.Create, FileAccess.Write);
+        StreamWriter writer2 = new StreamWriter(fs2, Encoding.UTF8);
         string p;
         for (int i = 0; i < regexList.Count; i++) {
             p = ConvertToCsharpRegular(regexList[i]);
             if (!string.IsNullOrEmpty(p)) {
-                writer.WriteLine(p);
+                writer2.WriteLine(p);
                 m_regexList.Add(p);
             }
         }
+        Console.WriteLine($"剔除重复后剩余普通串数量:{filters.Count}");
+        Console.WriteLine($"正则串数量:{m_regexList.Count}");
         
         m_filterRoot = new Node();
         for (int i = 0; i < filters.Count; i++) {
@@ -105,12 +110,14 @@ class Program {
         }
         
         // Console.WriteLine(Regex.IsMatch("连任事大百姓命贱","连任事大*百姓命贱"));
-        Console.WriteLine(CheckDirty("反\x1F33组织"));
+        // Console.WriteLine(CheckDirty("反\x1F33组织"));
         try {
             fs1.Dispose();
             writer.Dispose();
             fs1.Close();
             writer.Close();
+            fs2.Close();
+            writer2.Close();
         } catch (Exception e) {
         }
     }
